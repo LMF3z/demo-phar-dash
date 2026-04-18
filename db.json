@@ -1,0 +1,1413 @@
+{
+  "farmacias": [
+    {
+      "id": 1,
+      "nombre": "FarmaVida",
+      "ciudad": "Maracaibo",
+      "barrio": "Delicias",
+      "nit": "900111222-1",
+      "tel": "601-555-0101",
+      "vendedor": "Ana Torres",
+      "activa": true
+    },
+    {
+      "id": 2,
+      "nombre": "FarmaMuerte",
+      "ciudad": "Maracaibo",
+      "barrio": "La Limpia",
+      "nit": "900333444-2",
+      "tel": "604-555-0202",
+      "vendedor": "Carlos Ríos",
+      "activa": true
+    },
+    {
+      "id": 3,
+      "nombre": "FarmaPurgatorio",
+      "ciudad": "San Francisco",
+      "barrio": "Coromoto",
+      "nit": "900555666-3",
+      "tel": "602-555-0303",
+      "vendedor": "Luisa Mora",
+      "activa": true
+    }
+  ],
+  "ventas": [
+    {
+      "id": 1,
+      "farmaciaId": 1,
+      "mes": "Ene",
+      "unidades": 3500,
+      "valor": 84750000
+    },
+    {
+      "id": 2,
+      "farmaciaId": 1,
+      "mes": "Feb",
+      "unidades": 3200,
+      "valor": 77500000
+    },
+    {
+      "id": 3,
+      "farmaciaId": 1,
+      "mes": "Mar",
+      "unidades": 3800,
+      "valor": 92050000
+    },
+    {
+      "id": 4,
+      "farmaciaId": 1,
+      "mes": "Abr",
+      "unidades": 3650,
+      "valor": 88400000
+    },
+    {
+      "id": 5,
+      "farmaciaId": 1,
+      "mes": "May",
+      "unidades": 4100,
+      "valor": 99325000
+    },
+    {
+      "id": 6,
+      "farmaciaId": 1,
+      "mes": "Jun",
+      "unidades": 3950,
+      "valor": 95700000
+    },
+    {
+      "id": 7,
+      "farmaciaId": 1,
+      "mes": "Jul",
+      "unidades": 4300,
+      "valor": 104175000
+    },
+    {
+      "id": 8,
+      "farmaciaId": 1,
+      "mes": "Ago",
+      "unidades": 4450,
+      "valor": 107812500
+    },
+    {
+      "id": 9,
+      "farmaciaId": 1,
+      "mes": "Sep",
+      "unidades": 4200,
+      "valor": 101750000
+    },
+    {
+      "id": 10,
+      "farmaciaId": 1,
+      "mes": "Oct",
+      "unidades": 4600,
+      "valor": 111450000
+    },
+    {
+      "id": 11,
+      "farmaciaId": 1,
+      "mes": "Nov",
+      "unidades": 4800,
+      "valor": 116300000
+    },
+    {
+      "id": 12,
+      "farmaciaId": 1,
+      "mes": "Dic",
+      "unidades": 5100,
+      "valor": 123525000
+    },
+    {
+      "id": 13,
+      "farmaciaId": 2,
+      "mes": "Ene",
+      "unidades": 1800,
+      "valor": 38250000
+    },
+    {
+      "id": 14,
+      "farmaciaId": 2,
+      "mes": "Feb",
+      "unidades": 1650,
+      "valor": 35062500
+    },
+    {
+      "id": 15,
+      "farmaciaId": 2,
+      "mes": "Mar",
+      "unidades": 1900,
+      "valor": 40375000
+    },
+    {
+      "id": 16,
+      "farmaciaId": 2,
+      "mes": "Abr",
+      "unidades": 1750,
+      "valor": 37187500
+    },
+    {
+      "id": 17,
+      "farmaciaId": 2,
+      "mes": "May",
+      "unidades": 2100,
+      "valor": 44625000
+    },
+    {
+      "id": 18,
+      "farmaciaId": 2,
+      "mes": "Jun",
+      "unidades": 1950,
+      "valor": 41437500
+    },
+    {
+      "id": 19,
+      "farmaciaId": 2,
+      "mes": "Jul",
+      "unidades": 2200,
+      "valor": 46750000
+    },
+    {
+      "id": 20,
+      "farmaciaId": 2,
+      "mes": "Ago",
+      "unidades": 2350,
+      "valor": 49937500
+    },
+    {
+      "id": 21,
+      "farmaciaId": 2,
+      "mes": "Sep",
+      "unidades": 2150,
+      "valor": 45687500
+    },
+    {
+      "id": 22,
+      "farmaciaId": 2,
+      "mes": "Oct",
+      "unidades": 2450,
+      "valor": 52062500
+    },
+    {
+      "id": 23,
+      "farmaciaId": 2,
+      "mes": "Nov",
+      "unidades": 2500,
+      "valor": 53125000
+    },
+    {
+      "id": 24,
+      "farmaciaId": 2,
+      "mes": "Dic",
+      "unidades": 2700,
+      "valor": 57375000
+    },
+    {
+      "id": 25,
+      "farmaciaId": 3,
+      "mes": "Ene",
+      "unidades": 450,
+      "valor": 8550000
+    },
+    {
+      "id": 26,
+      "farmaciaId": 3,
+      "mes": "Feb",
+      "unidades": 520,
+      "valor": 9880000
+    },
+    {
+      "id": 27,
+      "farmaciaId": 3,
+      "mes": "Mar",
+      "unidades": 480,
+      "valor": 9120000
+    },
+    {
+      "id": 28,
+      "farmaciaId": 3,
+      "mes": "Abr",
+      "unidades": 550,
+      "valor": 10450000
+    },
+    {
+      "id": 29,
+      "farmaciaId": 3,
+      "mes": "May",
+      "unidades": 620,
+      "valor": 11780000
+    },
+    {
+      "id": 30,
+      "farmaciaId": 3,
+      "mes": "Jun",
+      "unidades": 580,
+      "valor": 11020000
+    },
+    {
+      "id": 31,
+      "farmaciaId": 3,
+      "mes": "Jul",
+      "unidades": 650,
+      "valor": 12350000
+    },
+    {
+      "id": 32,
+      "farmaciaId": 3,
+      "mes": "Ago",
+      "unidades": 720,
+      "valor": 13680000
+    },
+    {
+      "id": 33,
+      "farmaciaId": 3,
+      "mes": "Sep",
+      "unidades": 680,
+      "valor": 12920000
+    },
+    {
+      "id": 34,
+      "farmaciaId": 3,
+      "mes": "Oct",
+      "unidades": 750,
+      "valor": 14250000
+    },
+    {
+      "id": 35,
+      "farmaciaId": 3,
+      "mes": "Nov",
+      "unidades": 800,
+      "valor": 15200000
+    },
+    {
+      "id": 36,
+      "farmaciaId": 3,
+      "mes": "Dic",
+      "unidades": 850,
+      "valor": 16150000
+    }
+  ],
+  "grupos": [
+    {
+      "id": 1,
+      "farmaciaId": 1,
+      "grupo": "Medicamentos genéricos",
+      "peso": 42
+    },
+    {
+      "id": 2,
+      "farmaciaId": 1,
+      "grupo": "Medicamentos de marca",
+      "peso": 28
+    },
+    {
+      "id": 3,
+      "farmaciaId": 1,
+      "grupo": "Suplementos / OTC",
+      "peso": 15
+    },
+    {
+      "id": 4,
+      "farmaciaId": 1,
+      "grupo": "Cuidado personal",
+      "peso": 10
+    },
+    {
+      "id": 5,
+      "farmaciaId": 1,
+      "grupo": "Dispositivos médicos",
+      "peso": 5
+    },
+    {
+      "id": 6,
+      "farmaciaId": 2,
+      "grupo": "Medicamentos genéricos",
+      "peso": 35
+    },
+    {
+      "id": 7,
+      "farmaciaId": 2,
+      "grupo": "Medicamentos de marca",
+      "peso": 30
+    },
+    {
+      "id": 8,
+      "farmaciaId": 2,
+      "grupo": "Suplementos / OTC",
+      "peso": 20
+    },
+    {
+      "id": 9,
+      "farmaciaId": 2,
+      "grupo": "Cuidado personal",
+      "peso": 10
+    },
+    {
+      "id": 10,
+      "farmaciaId": 2,
+      "grupo": "Dispositivos médicos",
+      "peso": 5
+    },
+    {
+      "id": 11,
+      "farmaciaId": 3,
+      "grupo": "Medicamentos genéricos",
+      "peso": 50
+    },
+    {
+      "id": 12,
+      "farmaciaId": 3,
+      "grupo": "Medicamentos de marca",
+      "peso": 15
+    },
+    {
+      "id": 13,
+      "farmaciaId": 3,
+      "grupo": "Suplementos / OTC",
+      "peso": 20
+    },
+    {
+      "id": 14,
+      "farmaciaId": 3,
+      "grupo": "Cuidado personal",
+      "peso": 10
+    },
+    {
+      "id": 15,
+      "farmaciaId": 3,
+      "grupo": "Dispositivos médicos",
+      "peso": 5
+    }
+  ],
+  "top10": [
+    {
+      "id": 1,
+      "farmaciaId": 1,
+      "articulo": "Acetaminofén 500mg",
+      "unidades": 4500,
+      "valor": 83250000
+    },
+    {
+      "id": 2,
+      "farmaciaId": 1,
+      "articulo": "Ibuprofeno 400mg",
+      "unidades": 3800,
+      "valor": 70300000
+    },
+    {
+      "id": 3,
+      "farmaciaId": 1,
+      "articulo": "Loratadina 10mg",
+      "unidades": 3200,
+      "valor": 60160000
+    },
+    {
+      "id": 4,
+      "farmaciaId": 1,
+      "articulo": "Omeprazol 20mg",
+      "unidades": 2900,
+      "valor": 53650000
+    },
+    {
+      "id": 5,
+      "farmaciaId": 1,
+      "articulo": "Metformina 500mg",
+      "unidades": 2500,
+      "valor": 46250000
+    },
+    {
+      "id": 6,
+      "farmaciaId": 1,
+      "articulo": "Atorvastatina 20mg",
+      "unidades": 2100,
+      "valor": 38850000
+    },
+    {
+      "id": 7,
+      "farmaciaId": 1,
+      "articulo": "Clonazepam 0.5mg",
+      "unidades": 1850,
+      "valor": 34225000
+    },
+    {
+      "id": 8,
+      "farmaciaId": 1,
+      "articulo": "Amoxicilina 500mg",
+      "unidades": 1600,
+      "valor": 29600000
+    },
+    {
+      "id": 9,
+      "farmaciaId": 1,
+      "articulo": "Salbutamol Inhalador",
+      "unidades": 1400,
+      "valor": 25900000
+    },
+    {
+      "id": 10,
+      "farmaciaId": 1,
+      "articulo": "Diclofenaco 50mg",
+      "unidades": 1200,
+      "valor": 22200000
+    },
+    {
+      "id": 11,
+      "farmaciaId": 2,
+      "articulo": "Omeprazol 20mg",
+      "unidades": 2200,
+      "valor": 40700000
+    },
+    {
+      "id": 12,
+      "farmaciaId": 2,
+      "articulo": "Acetaminofén 500mg",
+      "unidades": 1950,
+      "valor": 36075000
+    },
+    {
+      "id": 13,
+      "farmaciaId": 2,
+      "articulo": "Losartán 50mg",
+      "unidades": 1800,
+      "valor": 33300000
+    },
+    {
+      "id": 14,
+      "farmaciaId": 2,
+      "articulo": "Amlodipino 5mg",
+      "unidades": 1650,
+      "valor": 30525000
+    },
+    {
+      "id": 15,
+      "farmaciaId": 2,
+      "articulo": "Metformina 500mg",
+      "unidades": 1500,
+      "valor": 27750000
+    },
+    {
+      "id": 16,
+      "farmaciaId": 2,
+      "articulo": "Enalapril 10mg",
+      "unidades": 1350,
+      "valor": 24975000
+    },
+    {
+      "id": 17,
+      "farmaciaId": 2,
+      "articulo": "Ibuprofeno 400mg",
+      "unidades": 1200,
+      "valor": 22200000
+    },
+    {
+      "id": 18,
+      "farmaciaId": 2,
+      "articulo": "Vitamina D3 1000UI",
+      "unidades": 1100,
+      "valor": 20350000
+    },
+    {
+      "id": 19,
+      "farmaciaId": 2,
+      "articulo": "Loratadina 10mg",
+      "unidades": 950,
+      "valor": 17575000
+    },
+    {
+      "id": 20,
+      "farmaciaId": 2,
+      "articulo": "Paracetamol 500mg",
+      "unidades": 850,
+      "valor": 15725000
+    },
+    {
+      "id": 21,
+      "farmaciaId": 3,
+      "articulo": "Acetaminofén 500mg",
+      "unidades": 950,
+      "valor": 17575000
+    },
+    {
+      "id": 22,
+      "farmaciaId": 3,
+      "articulo": "Ibuprofeno 400mg",
+      "unidades": 720,
+      "valor": 13320000
+    },
+    {
+      "id": 23,
+      "farmaciaId": 3,
+      "articulo": "Paracetamol 500mg",
+      "unidades": 680,
+      "valor": 12580000
+    },
+    {
+      "id": 24,
+      "farmaciaId": 3,
+      "articulo": "Loratadina 10mg",
+      "unidades": 520,
+      "valor": 9620000
+    },
+    {
+      "id": 25,
+      "farmaciaId": 3,
+      "articulo": "Omeprazol 20mg",
+      "unidades": 480,
+      "valor": 8880000
+    },
+    {
+      "id": 26,
+      "farmaciaId": 3,
+      "articulo": "Vitamina C 500mg",
+      "unidades": 420,
+      "valor": 7770000
+    },
+    {
+      "id": 27,
+      "farmaciaId": 3,
+      "articulo": "Bismutol Jarabe",
+      "unidades": 380,
+      "valor": 7030000
+    },
+    {
+      "id": 28,
+      "farmaciaId": 3,
+      "articulo": "Ambroxol Jarabe",
+      "unidades": 350,
+      "valor": 6475000
+    },
+    {
+      "id": 29,
+      "farmaciaId": 3,
+      "articulo": "Metoclopramida 10mg",
+      "unidades": 280,
+      "valor": 5180000
+    },
+    {
+      "id": 30,
+      "farmaciaId": 3,
+      "articulo": "Diclofenaco 50mg",
+      "unidades": 250,
+      "valor": 4625000
+    }
+  ],
+  "marcas": [
+    {
+      "id": 1,
+      "nombre": "Bayer"
+    },
+    {
+      "id": 2,
+      "nombre": "Reckitt"
+    },
+    {
+      "id": 3,
+      "nombre": "Sanofi"
+    },
+    {
+      "id": 4,
+      "nombre": "Abbott"
+    },
+    {
+      "id": 5,
+      "nombre": "Novartis"
+    },
+    {
+      "id": 6,
+      "nombre": "Genfar"
+    },
+    {
+      "id": 7,
+      "nombre": "LaBo"
+    },
+    {
+      "id": 8,
+      "nombre": "MK"
+    },
+    {
+      "id": 9,
+      "nombre": "Chalver"
+    },
+    {
+      "id": 10,
+      "nombre": "Tecnoquímicas"
+    }
+  ],
+  "marcasData": [
+    {
+      "id": 1,
+      "marcaId": 1,
+      "farmaciaId": null,
+      "mensual": [
+        {
+          "mes": "Ene",
+          "unidades": 1200
+        },
+        {
+          "mes": "Feb",
+          "unidades": 1350
+        },
+        {
+          "mes": "Mar",
+          "unidades": 1100
+        },
+        {
+          "mes": "Abr",
+          "unidades": 1450
+        },
+        {
+          "mes": "May",
+          "unidades": 1600
+        },
+        {
+          "mes": "Jun",
+          "unidades": 1750
+        },
+        {
+          "mes": "Jul",
+          "unidades": 1900
+        },
+        {
+          "mes": "Ago",
+          "unidades": 2050
+        },
+        {
+          "mes": "Sep",
+          "unidades": 1800
+        },
+        {
+          "mes": "Oct",
+          "unidades": 2200
+        },
+        {
+          "mes": "Nov",
+          "unidades": 2400
+        },
+        {
+          "mes": "Dic",
+          "unidades": 2600
+        }
+      ],
+      "porFarmacia": [
+        {
+          "farmacia": "FarmaVida",
+          "unidades": 8500
+        },
+        {
+          "farmacia": "FarmaMuerte",
+          "unidades": 5200
+        },
+        {
+          "farmacia": "FarmaPurgatorio",
+          "unidades": 1700
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "marcaId": 2,
+      "farmaciaId": null,
+      "mensual": [
+        {
+          "mes": "Ene",
+          "unidades": 800
+        },
+        {
+          "mes": "Feb",
+          "unidades": 750
+        },
+        {
+          "mes": "Mar",
+          "unidades": 900
+        },
+        {
+          "mes": "Abr",
+          "unidades": 850
+        },
+        {
+          "mes": "May",
+          "unidades": 1000
+        },
+        {
+          "mes": "Jun",
+          "unidades": 950
+        },
+        {
+          "mes": "Jul",
+          "unidades": 1100
+        },
+        {
+          "mes": "Ago",
+          "unidades": 1200
+        },
+        {
+          "mes": "Sep",
+          "unidades": 1050
+        },
+        {
+          "mes": "Oct",
+          "unidades": 1300
+        },
+        {
+          "mes": "Nov",
+          "unidades": 1400
+        },
+        {
+          "mes": "Dic",
+          "unidades": 1500
+        }
+      ],
+      "porFarmacia": [
+        {
+          "farmacia": "FarmaVida",
+          "unidades": 5500
+        },
+        {
+          "farmacia": "FarmaMuerte",
+          "unidades": 4800
+        },
+        {
+          "farmacia": "FarmaPurgatorio",
+          "unidades": 1500
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "marcaId": 3,
+      "farmaciaId": null,
+      "mensual": [
+        {
+          "mes": "Ene",
+          "unidades": 600
+        },
+        {
+          "mes": "Feb",
+          "unidades": 650
+        },
+        {
+          "mes": "Mar",
+          "unidades": 580
+        },
+        {
+          "mes": "Abr",
+          "unidades": 720
+        },
+        {
+          "mes": "May",
+          "unidades": 800
+        },
+        {
+          "mes": "Jun",
+          "unidades": 850
+        },
+        {
+          "mes": "Jul",
+          "unidades": 900
+        },
+        {
+          "mes": "Ago",
+          "unidades": 950
+        },
+        {
+          "mes": "Sep",
+          "unidades": 880
+        },
+        {
+          "mes": "Oct",
+          "unidades": 1000
+        },
+        {
+          "mes": "Nov",
+          "unidades": 1100
+        },
+        {
+          "mes": "Dic",
+          "unidades": 1200
+        }
+      ],
+      "porFarmacia": [
+        {
+          "farmacia": "FarmaVida",
+          "unidades": 4200
+        },
+        {
+          "farmacia": "FarmaMuerte",
+          "unidades": 3500
+        },
+        {
+          "farmacia": "FarmaPurgatorio",
+          "unidades": 1430
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "marcaId": 4,
+      "farmaciaId": null,
+      "mensual": [
+        {
+          "mes": "Ene",
+          "unidades": 500
+        },
+        {
+          "mes": "Feb",
+          "unidades": 550
+        },
+        {
+          "mes": "Mar",
+          "unidades": 480
+        },
+        {
+          "mes": "Abr",
+          "unidades": 620
+        },
+        {
+          "mes": "May",
+          "unidades": 700
+        },
+        {
+          "mes": "Jun",
+          "unidades": 750
+        },
+        {
+          "mes": "Jul",
+          "unidades": 800
+        },
+        {
+          "mes": "Ago",
+          "unidades": 850
+        },
+        {
+          "mes": "Sep",
+          "unidades": 780
+        },
+        {
+          "mes": "Oct",
+          "unidades": 900
+        },
+        {
+          "mes": "Nov",
+          "unidades": 980
+        },
+        {
+          "mes": "Dic",
+          "unidades": 1050
+        }
+      ],
+      "porFarmacia": [
+        {
+          "farmacia": "FarmaVida",
+          "unidades": 3800
+        },
+        {
+          "farmacia": "FarmaMuerte",
+          "unidades": 2900
+        },
+        {
+          "farmacia": "FarmaPurgatorio",
+          "unidades": 1230
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "marcaId": 5,
+      "farmaciaId": null,
+      "mensual": [
+        {
+          "mes": "Ene",
+          "unidades": 400
+        },
+        {
+          "mes": "Feb",
+          "unidades": 420
+        },
+        {
+          "mes": "Mar",
+          "unidades": 380
+        },
+        {
+          "mes": "Abr",
+          "unidades": 480
+        },
+        {
+          "mes": "May",
+          "unidades": 550
+        },
+        {
+          "mes": "Jun",
+          "unidades": 600
+        },
+        {
+          "mes": "Jul",
+          "unidades": 650
+        },
+        {
+          "mes": "Ago",
+          "unidades": 700
+        },
+        {
+          "mes": "Sep",
+          "unidades": 620
+        },
+        {
+          "mes": "Oct",
+          "unidades": 750
+        },
+        {
+          "mes": "Nov",
+          "unidades": 820
+        },
+        {
+          "mes": "Dic",
+          "unidades": 880
+        }
+      ],
+      "porFarmacia": [
+        {
+          "farmacia": "FarmaVida",
+          "unidades": 3200
+        },
+        {
+          "farmacia": "FarmaMuerte",
+          "unidades": 2400
+        },
+        {
+          "farmacia": "FarmaPurgatorio",
+          "unidades": 1050
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "marcaId": 6,
+      "farmaciaId": null,
+      "mensual": [
+        {
+          "mes": "Ene",
+          "unidades": 1500
+        },
+        {
+          "mes": "Feb",
+          "unidades": 1400
+        },
+        {
+          "mes": "Mar",
+          "unidades": 1600
+        },
+        {
+          "mes": "Abr",
+          "unidades": 1550
+        },
+        {
+          "mes": "May",
+          "unidades": 1750
+        },
+        {
+          "mes": "Jun",
+          "unidades": 1800
+        },
+        {
+          "mes": "Jul",
+          "unidades": 1950
+        },
+        {
+          "mes": "Ago",
+          "unidades": 2050
+        },
+        {
+          "mes": "Sep",
+          "unidades": 1900
+        },
+        {
+          "mes": "Oct",
+          "unidades": 2100
+        },
+        {
+          "mes": "Nov",
+          "unidades": 2250
+        },
+        {
+          "mes": "Dic",
+          "unidades": 2400
+        }
+      ],
+      "porFarmacia": [
+        {
+          "farmacia": "FarmaVida",
+          "unidades": 9500
+        },
+        {
+          "farmacia": "FarmaMuerte",
+          "unidades": 7200
+        },
+        {
+          "farmacia": "FarmaPurgatorio",
+          "unidades": 2800
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "marcaId": 7,
+      "farmaciaId": null,
+      "mensual": [
+        {
+          "mes": "Ene",
+          "unidades": 350
+        },
+        {
+          "mes": "Feb",
+          "unidades": 380
+        },
+        {
+          "mes": "Mar",
+          "unidades": 320
+        },
+        {
+          "mes": "Abr",
+          "unidades": 420
+        },
+        {
+          "mes": "May",
+          "unidades": 480
+        },
+        {
+          "mes": "Jun",
+          "unidades": 520
+        },
+        {
+          "mes": "Jul",
+          "unidades": 560
+        },
+        {
+          "mes": "Ago",
+          "unidades": 600
+        },
+        {
+          "mes": "Sep",
+          "unidades": 540
+        },
+        {
+          "mes": "Oct",
+          "unidades": 650
+        },
+        {
+          "mes": "Nov",
+          "unidades": 700
+        },
+        {
+          "mes": "Dic",
+          "unidades": 750
+        }
+      ],
+      "porFarmacia": [
+        {
+          "farmacia": "FarmaVida",
+          "unidades": 2800
+        },
+        {
+          "farmacia": "FarmaMuerte",
+          "unidades": 1900
+        },
+        {
+          "farmacia": "FarmaPurgatorio",
+          "unidades": 780
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "marcaId": 8,
+      "farmaciaId": null,
+      "mensual": [
+        {
+          "mes": "Ene",
+          "unidades": 300
+        },
+        {
+          "mes": "Feb",
+          "unidades": 320
+        },
+        {
+          "mes": "Mar",
+          "unidades": 280
+        },
+        {
+          "mes": "Abr",
+          "unidades": 350
+        },
+        {
+          "mes": "May",
+          "unidades": 400
+        },
+        {
+          "mes": "Jun",
+          "unidades": 420
+        },
+        {
+          "mes": "Jul",
+          "unidades": 450
+        },
+        {
+          "mes": "Ago",
+          "unidades": 480
+        },
+        {
+          "mes": "Sep",
+          "unidades": 430
+        },
+        {
+          "mes": "Oct",
+          "unidades": 520
+        },
+        {
+          "mes": "Nov",
+          "unidades": 560
+        },
+        {
+          "mes": "Dic",
+          "unidades": 600
+        }
+      ],
+      "porFarmacia": [
+        {
+          "farmacia": "FarmaVida",
+          "unidades": 2200
+        },
+        {
+          "farmacia": "FarmaMuerte",
+          "unidades": 1600
+        },
+        {
+          "farmacia": "FarmaPurgatorio",
+          "unidades": 690
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "marcaId": 9,
+      "farmaciaId": null,
+      "mensual": [
+        {
+          "mes": "Ene",
+          "unidades": 250
+        },
+        {
+          "mes": "Feb",
+          "unidades": 270
+        },
+        {
+          "mes": "Mar",
+          "unidades": 240
+        },
+        {
+          "mes": "Abr",
+          "unidades": 300
+        },
+        {
+          "mes": "May",
+          "unidades": 340
+        },
+        {
+          "mes": "Jun",
+          "unidades": 360
+        },
+        {
+          "mes": "Jul",
+          "unidades": 390
+        },
+        {
+          "mes": "Ago",
+          "unidades": 420
+        },
+        {
+          "mes": "Sep",
+          "unidades": 370
+        },
+        {
+          "mes": "Oct",
+          "unidades": 450
+        },
+        {
+          "mes": "Nov",
+          "unidades": 480
+        },
+        {
+          "mes": "Dic",
+          "unidades": 520
+        }
+      ],
+      "porFarmacia": [
+        {
+          "farmacia": "FarmaVida",
+          "unidades": 1800
+        },
+        {
+          "farmacia": "FarmaMuerte",
+          "unidades": 1300
+        },
+        {
+          "farmacia": "FarmaPurgatorio",
+          "unidades": 580
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "marcaId": 10,
+      "farmaciaId": null,
+      "mensual": [
+        {
+          "mes": "Ene",
+          "unidades": 450
+        },
+        {
+          "mes": "Feb",
+          "unidades": 480
+        },
+        {
+          "mes": "Mar",
+          "unidades": 420
+        },
+        {
+          "mes": "Abr",
+          "unidades": 520
+        },
+        {
+          "mes": "May",
+          "unidades": 580
+        },
+        {
+          "mes": "Jun",
+          "unidades": 620
+        },
+        {
+          "mes": "Jul",
+          "unidades": 660
+        },
+        {
+          "mes": "Ago",
+          "unidades": 700
+        },
+        {
+          "mes": "Sep",
+          "unidades": 640
+        },
+        {
+          "mes": "Oct",
+          "unidades": 750
+        },
+        {
+          "mes": "Nov",
+          "unidades": 800
+        },
+        {
+          "mes": "Dic",
+          "unidades": 850
+        }
+      ],
+      "porFarmacia": [
+        {
+          "farmacia": "FarmaVida",
+          "unidades": 3200
+        },
+        {
+          "farmacia": "FarmaMuerte",
+          "unidades": 2200
+        },
+        {
+          "farmacia": "FarmaPurgatorio",
+          "unidades": 850
+        }
+      ]
+    }
+  ],
+  "alertas": [
+    {
+      "id": 1,
+      "farmaciaId": 1,
+      "producto": "Cetirizina 10mg 30c",
+      "stock": 145,
+      "diasRotacion": 92,
+      "nivel": "alto"
+    },
+    {
+      "id": 2,
+      "farmaciaId": 1,
+      "producto": "Vitamina D3 2000UI",
+      "stock": 230,
+      "diasRotacion": 78,
+      "nivel": "alto"
+    },
+    {
+      "id": 3,
+      "farmaciaId": 1,
+      "producto": "Omega 3 1000mg",
+      "stock": 175,
+      "diasRotacion": 60,
+      "nivel": "medio"
+    },
+    {
+      "id": 4,
+      "farmaciaId": 1,
+      "producto": "Aspirina 100mg",
+      "stock": 95,
+      "diasRotacion": 45,
+      "nivel": "bajo"
+    },
+    {
+      "id": 5,
+      "farmaciaId": 2,
+      "producto": "Gel Antibacterial 500ml",
+      "stock": 88,
+      "diasRotacion": 65,
+      "nivel": "medio"
+    },
+    {
+      "id": 6,
+      "farmaciaId": 2,
+      "producto": "Antifúngico Tópico",
+      "stock": 62,
+      "diasRotacion": 55,
+      "nivel": "medio"
+    },
+    {
+      "id": 7,
+      "farmaciaId": 2,
+      "producto": "Bicarbonato de Sodio",
+      "stock": 310,
+      "diasRotacion": 48,
+      "nivel": "bajo"
+    },
+    {
+      "id": 8,
+      "farmaciaId": 3,
+      "producto": "Paracetamol 500mg Jarabe",
+      "stock": 45,
+      "diasRotacion": 85,
+      "nivel": "alto"
+    },
+    {
+      "id": 9,
+      "farmaciaId": 3,
+      "producto": "Miconazol Crema",
+      "stock": 38,
+      "diasRotacion": 72,
+      "nivel": "alto"
+    },
+    {
+      "id": 10,
+      "farmaciaId": 3,
+      "producto": "Vitamina B12 Iny.",
+      "stock": 25,
+      "diasRotacion": 58,
+      "nivel": "medio"
+    }
+  ],
+  "skus": [
+    { "farmaciaId": 1, "total": 10 },
+    { "farmaciaId": 2, "total": 10 },
+    { "farmaciaId": 3, "total": 10 }
+  ]
+}
