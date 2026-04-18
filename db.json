@@ -2,7 +2,7 @@
   "farmacias": [
     {
       "id": 1,
-      "nombre": "FarmaVida",
+      "nombre": "Alkosto",
       "ciudad": "Maracaibo",
       "barrio": "Delicias",
       "nit": "900111222-1",
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "nombre": "FarmaMuerte",
+      "nombre": "Familia",
       "ciudad": "Maracaibo",
       "barrio": "La Limpia",
       "nit": "900333444-2",
@@ -22,7 +22,7 @@
     },
     {
       "id": 3,
-      "nombre": "FarmaPurgatorio",
+      "nombre": "Alkosto 2",
       "ciudad": "San Francisco",
       "barrio": "Coromoto",
       "nit": "900555666-3",
