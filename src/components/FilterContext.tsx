@@ -61,6 +61,20 @@ export type SkuData = {
   total: number
 }
 
+export type Sugerido = {
+  id: number
+  farmaciaId: number
+  codigo: string
+  producto: string
+  marca: string
+  precio: number
+  ventas3m: number
+  stock: number
+  sugerido: number
+  transito: number
+  urgente: boolean
+}
+
 export type DataState = {
   farmacias: Farmacia[]
   ventas: Venta[]
@@ -70,6 +84,7 @@ export type DataState = {
   marcasData: MarcaData[]
   alertas: Alerta[]
   skus: SkuData[]
+  sugeridos: Sugerido[]
   loading: boolean
 }
 

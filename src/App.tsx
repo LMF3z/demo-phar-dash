@@ -15,6 +15,7 @@ import { PageResumen } from "./components/PageResumen"
 import { PageMarcas } from "./components/PageMarcas"
 import { PageAlertas } from "./components/PageAlertas"
 import { PageFarmacias } from "./components/PageFarmacias"
+import { PageSugeridos } from "./components/PageSugeridos"
 import db from "../db.json"
 
 const STORAGE_KEY = "phardash_logged"
@@ -24,6 +25,7 @@ const NAV = [
   { id: "resumen", label: "Resumen" },
   { id: "marcas", label: "Marcas" },
   { id: "alertas", label: "Alertas" },
+  { id: "sugeridos", label: "Sugeridos" },
   { id: "farmacias", label: "Farmacias" },
 ]
 
@@ -112,6 +114,7 @@ function DashboardLayout() {
     marcasData: [],
     alertas: [],
     skus: [],
+    sugeridos: [],
     loading: true,
   })
 
@@ -130,6 +133,7 @@ function DashboardLayout() {
           marcasData: apiData.marcasData || [],
           alertas: apiData.alertas || [],
           skus: apiData.skus || [],
+          sugeridos: apiData.sugeridos || [],
           loading: false,
         })
       } else {
@@ -145,6 +149,7 @@ function DashboardLayout() {
         marcasData: db.marcasData,
         alertas: db.alertas,
         skus: db.skus,
+        sugeridos: db.sugeridos || [],
         loading: false,
       })
     }
@@ -187,6 +192,7 @@ function DashboardLayout() {
     resumen: <PageResumen data={data} />,
     marcas: <PageMarcas data={data} />,
     alertas: <PageAlertas data={data} />,
+    sugeridos: <PageSugeridos data={data} />,
     farmacias: <PageFarmacias data={data} refetch={fetchData} />,
   }
 
