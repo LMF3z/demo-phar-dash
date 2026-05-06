@@ -9,7 +9,6 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card"
-import alkostoFamily from "../assets/alkostofamily.jpeg"
 
 type Props = {
   onLogin: () => void
@@ -44,11 +43,9 @@ export function Login({ onLogin }: Props) {
       <Card className="w-full max-w-[380px] border-border/50 shadow-2xl">
         <CardHeader className="space-y-1 pb-2 text-center">
           <div className="mb-4 flex justify-center">
-            <img
-              src={alkostoFamily}
-              alt="Alkosto Family"
-              className="h-16 rounded-xl object-cover shadow-lg"
-            />
+            <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-primary text-3xl">
+              💊
+            </div>
           </div>
           <CardTitle className="text-2xl font-bold tracking-tight">
             Phar Dash

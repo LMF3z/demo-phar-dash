@@ -22,9 +22,9 @@ export const PIE_COLORS = [
 ]
 
 export const STORE_COLORS: Record<string, string> = {
-  "Alkosto": "#1447e6",
-  "Familia": "#27AE60",
-  "Alkosto 2": "#F5A623",
+  "Farmacia 1": "#1447e6",
+  "Farmacia 2": "#27AE60",
+  "Farmacia 3": "#F5A623",
 }
 
 export const MONTHS = [

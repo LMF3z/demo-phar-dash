@@ -91,7 +91,7 @@ export function PageFarmacias({ data, refetch }: Props) {
             </DialogHeader>
             <div className="space-y-4">
               {[
-                { k: "nombre", label: "Nombre de la farmacia", ph: "Alkosto" },
+                { k: "nombre", label: "Nombre de la farmacia", ph: "Farmacia 1" },
                 { k: "ciudad", label: "Ciudad", ph: "Bogotá" },
                 { k: "barrio", label: "Barrio / Localidad", ph: "Suba" },
                 { k: "nit", label: "NIT", ph: "900111222-1" },

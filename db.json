@@ -2,7 +2,7 @@
   "farmacias": [
     {
       "id": 1,
-      "nombre": "Alkosto",
+      "nombre": "Farmacia 1",
       "ciudad": "Maracaibo",
       "barrio": "Delicias",
       "nit": "900111222-1",
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "nombre": "Familia",
+      "nombre": "Farmacia 2",
       "ciudad": "Maracaibo",
       "barrio": "La Limpia",
       "nit": "900333444-2",
@@ -22,7 +22,7 @@
     },
     {
       "id": 3,
-      "nombre": "Alkosto 2",
+      "nombre": "Farmacia 3",
       "ciudad": "San Francisco",
       "barrio": "Coromoto",
       "nit": "900555666-3",
@@ -688,15 +688,15 @@
       ],
       "porFarmacia": [
         {
-          "farmacia": "Alkosto",
+          "farmacia": "Farmacia 1",
           "unidades": 8500
         },
         {
-          "farmacia": "Familia",
+          "farmacia": "Farmacia 2",
           "unidades": 5200
         },
         {
-          "farmacia": "Alkosto 2",
+          "farmacia": "Farmacia 3",
           "unidades": 1700
         }
       ]
@@ -757,15 +757,15 @@
       ],
       "porFarmacia": [
         {
-          "farmacia": "Alkosto",
+          "farmacia": "Farmacia 1",
           "unidades": 5500
         },
         {
-          "farmacia": "Familia",
+          "farmacia": "Farmacia 2",
           "unidades": 4800
         },
         {
-          "farmacia": "Alkosto 2",
+          "farmacia": "Farmacia 3",
           "unidades": 1500
         }
       ]
@@ -826,15 +826,15 @@
       ],
       "porFarmacia": [
         {
-          "farmacia": "Alkosto",
+          "farmacia": "Farmacia 1",
           "unidades": 4200
         },
         {
-          "farmacia": "Familia",
+          "farmacia": "Farmacia 2",
           "unidades": 3500
         },
         {
-          "farmacia": "Alkosto 2",
+          "farmacia": "Farmacia 3",
           "unidades": 1430
         }
       ]
@@ -895,15 +895,15 @@
       ],
       "porFarmacia": [
         {
-          "farmacia": "Alkosto",
+          "farmacia": "Farmacia 1",
           "unidades": 3800
         },
         {
-          "farmacia": "Familia",
+          "farmacia": "Farmacia 2",
           "unidades": 2900
         },
         {
-          "farmacia": "Alkosto 2",
+          "farmacia": "Farmacia 3",
           "unidades": 1230
         }
       ]
@@ -964,15 +964,15 @@
       ],
       "porFarmacia": [
         {
-          "farmacia": "Alkosto",
+          "farmacia": "Farmacia 1",
           "unidades": 3200
         },
         {
-          "farmacia": "Familia",
+          "farmacia": "Farmacia 2",
           "unidades": 2400
         },
         {
-          "farmacia": "Alkosto 2",
+          "farmacia": "Farmacia 3",
           "unidades": 1050
         }
       ]
@@ -1033,15 +1033,15 @@
       ],
       "porFarmacia": [
         {
-          "farmacia": "Alkosto",
+          "farmacia": "Farmacia 1",
           "unidades": 9500
         },
         {
-          "farmacia": "Familia",
+          "farmacia": "Farmacia 2",
           "unidades": 7200
         },
         {
-          "farmacia": "Alkosto 2",
+          "farmacia": "Farmacia 3",
           "unidades": 2800
         }
       ]
@@ -1102,15 +1102,15 @@
       ],
       "porFarmacia": [
         {
-          "farmacia": "Alkosto",
+          "farmacia": "Farmacia 1",
           "unidades": 2800
         },
         {
-          "farmacia": "Familia",
+          "farmacia": "Farmacia 2",
           "unidades": 1900
         },
         {
-          "farmacia": "Alkosto 2",
+          "farmacia": "Farmacia 3",
           "unidades": 780
         }
       ]
@@ -1171,15 +1171,15 @@
       ],
       "porFarmacia": [
         {
-          "farmacia": "Alkosto",
+          "farmacia": "Farmacia 1",
           "unidades": 2200
         },
         {
-          "farmacia": "Familia",
+          "farmacia": "Farmacia 2",
           "unidades": 1600
         },
         {
-          "farmacia": "Alkosto 2",
+          "farmacia": "Farmacia 3",
           "unidades": 690
         }
       ]
@@ -1240,15 +1240,15 @@
       ],
       "porFarmacia": [
         {
-          "farmacia": "Alkosto",
+          "farmacia": "Farmacia 1",
           "unidades": 1800
         },
         {
-          "farmacia": "Familia",
+          "farmacia": "Farmacia 2",
           "unidades": 1300
         },
         {
-          "farmacia": "Alkosto 2",
+          "farmacia": "Farmacia 3",
           "unidades": 580
         }
       ]
@@ -1309,15 +1309,15 @@
       ],
       "porFarmacia": [
         {
-          "farmacia": "Alkosto",
+          "farmacia": "Farmacia 1",
           "unidades": 3200
         },
         {
-          "farmacia": "Familia",
+          "farmacia": "Farmacia 2",
           "unidades": 2200
         },
         {
-          "farmacia": "Alkosto 2",
+          "farmacia": "Farmacia 3",
           "unidades": 850
         }
       ]
