@@ -10,7 +10,8 @@ import {
 } from "./components/ui/select"
 import { PanelLeft, PanelLeftClose, Menu } from "lucide-react"
 import { Login } from "./components/Login"
-import { FilterProvider, type DataState, type OrdenCompra } from "./components/FilterContext"
+import { FilterProvider, type DataState } from "./components/FilterContext"
+import type { Venta, Farmacia, Grupo, TopArticulo, Marca, MarcaData, Alerta, SkuData, Sugerido, MarcaTopProducto, MarcaRanking, Proveedor, OrdenCompra, Presupuesto } from "./components/FilterContext"
 import { PageResumen } from "./components/PageResumen"
 import { PageMarcas } from "./components/PageMarcas"
 import { PageAlertas } from "./components/PageAlertas"
@@ -18,6 +19,8 @@ import { PageFarmacias } from "./components/PageFarmacias"
 import { PageSugeridos } from "./components/PageSugeridos"
 import { PageProveedores } from "./components/PageProveedores"
 import db from "../db.json"
+
+const raw = db as any
 
 const STORAGE_KEY = "phardash_logged"
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3001"
@@ -153,20 +156,20 @@ function DashboardLayout() {
       }
     } catch {
       setData({
-        ventas: db.ventas,
-        farmacias: db.farmacias,
-        grupos: db.grupos,
-        top10: db.top10,
-        marcas: db.marcas,
-        marcasData: db.marcasData,
-        alertas: db.alertas,
-        skus: db.skus,
-        sugeridos: db.sugeridos || [],
-        marcaTopProductos: db.marcaTopProductos || [],
-        marcasRanking: db.marcasRanking || [],
-        proveedores: db.proveedores || [],
-        ordenesCompra: (db.ordenesCompra || []) as OrdenCompra[],
-        presupuestos: db.presupuestos || [],
+        ventas: raw.ventas as Venta[],
+        farmacias: raw.farmacias as Farmacia[],
+        grupos: raw.grupos as Grupo[],
+        top10: raw.top10 as TopArticulo[],
+        marcas: raw.marcas as Marca[],
+        marcasData: raw.marcasData as MarcaData[],
+        alertas: raw.alertas as Alerta[],
+        skus: raw.skus as SkuData[],
+        sugeridos: (raw.sugeridos || []) as Sugerido[],
+        marcaTopProductos: (raw.marcaTopProductos || []) as MarcaTopProducto[],
+        marcasRanking: (raw.marcasRanking || []) as MarcaRanking[],
+        proveedores: (raw.proveedores || []) as Proveedor[],
+        ordenesCompra: (raw.ordenesCompra || []) as OrdenCompra[],
+        presupuestos: (raw.presupuestos || []) as Presupuesto[],
         loading: false,
       })
     }
