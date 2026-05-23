@@ -20,8 +20,6 @@ import { PageSugeridos } from "./components/PageSugeridos"
 import { PageProveedores } from "./components/PageProveedores"
 import db from "../db.json"
 
-const raw = db as any
-
 const STORAGE_KEY = "phardash_logged"
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3001"
 
@@ -155,21 +153,79 @@ function DashboardLayout() {
         throw new Error("API response not ok")
       }
     } catch {
+      const toNum = (v: unknown) =>
+        v !== undefined && v !== null ? Number(v) : v
+
+      const d = db as any
+
       setData({
-        ventas: raw.ventas as Venta[],
-        farmacias: raw.farmacias as Farmacia[],
-        grupos: raw.grupos as Grupo[],
-        top10: raw.top10 as TopArticulo[],
-        marcas: raw.marcas as Marca[],
-        marcasData: raw.marcasData as MarcaData[],
-        alertas: raw.alertas as Alerta[],
-        skus: raw.skus as SkuData[],
-        sugeridos: (raw.sugeridos || []) as Sugerido[],
-        marcaTopProductos: (raw.marcaTopProductos || []) as MarcaTopProducto[],
-        marcasRanking: (raw.marcasRanking || []) as MarcaRanking[],
-        proveedores: (raw.proveedores || []) as Proveedor[],
-        ordenesCompra: (raw.ordenesCompra || []) as OrdenCompra[],
-        presupuestos: (raw.presupuestos || []) as Presupuesto[],
+        ventas: (d.ventas || []).map((v: any) => ({
+          ...v,
+          id: toNum(v.id),
+          farmaciaId: toNum(v.farmaciaId),
+        })) as Venta[],
+        farmacias: (d.farmacias || []).map((v: any) => ({
+          ...v,
+          id: toNum(v.id),
+        })) as Farmacia[],
+        grupos: (d.grupos || []).map((v: any) => ({
+          ...v,
+          id: toNum(v.id),
+          farmaciaId: toNum(v.farmaciaId),
+        })) as Grupo[],
+        top10: (d.top10 || []).map((v: any) => ({
+          ...v,
+          id: toNum(v.id),
+          farmaciaId: toNum(v.farmaciaId),
+        })) as TopArticulo[],
+        marcas: (d.marcas || []).map((v: any) => ({
+          ...v,
+          id: toNum(v.id),
+        })) as Marca[],
+        marcasData: (d.marcasData || []).map((v: any) => ({
+          ...v,
+          id: toNum(v.id),
+          marcaId: toNum(v.marcaId),
+          farmaciaId: toNum(v.farmaciaId),
+        })) as MarcaData[],
+        alertas: (d.alertas || []).map((v: any) => ({
+          ...v,
+          id: toNum(v.id),
+          farmaciaId: toNum(v.farmaciaId),
+        })) as Alerta[],
+        skus: (d.skus || []).map((v: any) => ({
+          ...v,
+          farmaciaId: toNum(v.farmaciaId),
+        })) as SkuData[],
+        sugeridos: (d.sugeridos || []).map((v: any) => ({
+          ...v,
+          id: toNum(v.id),
+          farmaciaId: toNum(v.farmaciaId),
+        })) as Sugerido[],
+        marcaTopProductos: (d.marcaTopProductos || []).map((v: any) => ({
+          ...v,
+          id: toNum(v.id),
+          marcaId: toNum(v.marcaId),
+        })) as MarcaTopProducto[],
+        marcasRanking: (d.marcasRanking || []).map((v: any) => ({
+          ...v,
+          id: toNum(v.id),
+          marcaId: toNum(v.marcaId),
+        })) as MarcaRanking[],
+        proveedores: (d.proveedores || []).map((v: any) => ({
+          ...v,
+          id: toNum(v.id),
+        })) as Proveedor[],
+        ordenesCompra: (d.ordenesCompra || []).map((v: any) => ({
+          ...v,
+          id: toNum(v.id),
+          proveedorId: toNum(v.proveedorId),
+          farmaciaId: toNum(v.farmaciaId),
+        })) as OrdenCompra[],
+        presupuestos: (d.presupuestos || []).map((v: any) => ({
+          ...v,
+          farmaciaId: toNum(v.farmaciaId),
+        })) as Presupuesto[],
         loading: false,
       })
     }
