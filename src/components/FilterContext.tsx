@@ -75,6 +75,55 @@ export type Sugerido = {
   urgente: boolean
 }
 
+export type MarcaTopProducto = {
+  id: number
+  marcaId: number
+  producto: string
+  unidades: number
+  valor: number
+  participacion: number
+}
+
+export type MarcaRanking = {
+  id: number
+  marcaId: number
+  nombre: string
+  unidades: number
+  valor: number
+}
+
+export type Proveedor = {
+  id: number
+  nombre: string
+  nit: string
+  telefono: string
+  email: string
+  contacto: string
+  diasFlete: number
+  activo: boolean
+}
+
+export type OrdenCompraItem = {
+  producto: string
+  cantidad: number
+  precioUnit: number
+}
+
+export type OrdenCompra = {
+  id: number
+  proveedorId: number
+  farmaciaId: number
+  fechaPedido: string
+  items: OrdenCompraItem[]
+  total: number
+  estado: "pendiente" | "en_transito" | "recibido" | "retrasado"
+}
+
+export type Presupuesto = {
+  farmaciaId: number
+  monto: number
+}
+
 export type DataState = {
   farmacias: Farmacia[]
   ventas: Venta[]
@@ -85,6 +134,11 @@ export type DataState = {
   alertas: Alerta[]
   skus: SkuData[]
   sugeridos: Sugerido[]
+  marcaTopProductos: MarcaTopProducto[]
+  marcasRanking: MarcaRanking[]
+  proveedores: Proveedor[]
+  ordenesCompra: OrdenCompra[]
+  presupuestos: Presupuesto[]
   loading: boolean
 }
 

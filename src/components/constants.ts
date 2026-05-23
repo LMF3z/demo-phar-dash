@@ -27,6 +27,19 @@ export const STORE_COLORS: Record<string, string> = {
   "Farmacia 3": "#F5A623",
 }
 
+export const BRAND_COLORS: Record<string, string> = {
+  Genfar: "#1447e6",
+  Bayer: "#E74C3C",
+  "Tecnoquímicas": "#27AE60",
+  Novartis: "#F39C12",
+  MK: "#8E44AD",
+  Reckitt: "#16A085",
+  Abbott: "#2b7fff",
+  LaBo: "#E67E22",
+  Sanofi: "#1ABC9C",
+  Chalver: "#9B59B6",
+}
+
 export const MONTHS = [
   "Ene",
   "Feb",

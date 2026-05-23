@@ -1,5 +1,7 @@
+import { useMemo } from "react"
 import { Badge } from "./ui/badge"
 import { Card, CardContent } from "./ui/card"
+import { MetricCard } from "./MetricCard"
 import { COLORS, fmt, fmtM } from "./constants"
 import type { DataState } from "./FilterContext"
 import { useFilter } from "./FilterContext"
@@ -10,7 +12,7 @@ type Props = {
 
 export function PageSugeridos({ data }: Props) {
   const { selectedFarmaciaId, getFarmaciaNombre } = useFilter()
-  const { farmacias, sugeridos } = data
+  const { farmacias, sugeridos, presupuestos } = data
   const currentFarmacia = getFarmaciaNombre()
 
   const sugeridosFiltrados =
@@ -27,6 +29,36 @@ export function PageSugeridos({ data }: Props) {
     0,
   )
   const totalProductos = sugeridosFiltrados.length
+
+  const presupuesto = useMemo(() => {
+    if (selectedFarmaciaId === null)
+      return presupuestos.reduce((a, b) => a + b.monto, 0)
+    return presupuestos.find((p) => p.farmaciaId === selectedFarmaciaId)?.monto || 0
+  }, [selectedFarmaciaId, presupuestos])
+
+  const gastoAcumulado = useMemo(() => {
+    let acum = 0
+    const ordenados = [...urgentes, ...normales]
+    const mapa: Record<number, boolean> = {}
+    for (const s of ordenados) {
+      const costo = s.sugerido * s.precio
+      if (acum + costo <= presupuesto) {
+        acum += costo
+        mapa[s.id] = true
+      } else {
+        mapa[s.id] = false
+      }
+    }
+    return { acum, mapa }
+  }, [urgentes, normales, presupuesto])
+
+  const ratioPresupuesto = presupuesto > 0 ? gastoAcumulado.acum / presupuesto : 0
+  const barColor =
+    ratioPresupuesto < 0.6
+      ? COLORS.success
+      : ratioPresupuesto < 0.85
+        ? COLORS.warn
+        : COLORS.danger
 
   return (
     <div>
@@ -96,6 +128,50 @@ export function PageSugeridos({ data }: Props) {
         </Card>
       </div>
 
+      {presupuesto > 0 && (
+        <Card className="mb-4">
+          <CardContent className="p-3">
+            <div className="mb-3 flex items-center justify-between">
+              <p className="text-sm font-bold">💰 Presupuesto del Mes</p>
+              <p className="text-xs text-muted-foreground">📍 {currentFarmacia}</p>
+            </div>
+            <div className="mb-3 grid grid-cols-3 gap-2">
+              <MetricCard
+                icon="💰"
+                label="Presupuesto total"
+                value={fmtM(presupuesto)}
+                color={COLORS.primary}
+              />
+              <MetricCard
+                icon="🛒"
+                label="Gasto estimado"
+                value={fmtM(gastoAcumulado.acum)}
+                color={COLORS.warn}
+              />
+              <MetricCard
+                icon="📊"
+                label="Saldo disponible"
+                value={fmtM(presupuesto - gastoAcumulado.acum)}
+                color={barColor}
+              />
+            </div>
+            <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
+              <div
+                className="h-full rounded-full transition-all duration-500"
+                style={{
+                  width: `${Math.min(ratioPresupuesto * 100, 100)}%`,
+                  backgroundColor: barColor,
+                }}
+              />
+            </div>
+            <p className="mt-1 text-xs text-muted-foreground">
+              {fmtM(gastoAcumulado.acum)} de {fmtM(presupuesto)} (
+              {Math.round(ratioPresupuesto * 100)}%)
+            </p>
+          </CardContent>
+        </Card>
+      )}
+
       {urgentes.length > 0 && (
         <div className="mb-4">
           <div className="mb-2 flex items-center gap-2">
@@ -136,6 +212,9 @@ export function PageSugeridos({ data }: Props) {
                       </th>
                       <th className="px-3 py-2 text-center font-bold text-muted-foreground">
                         Estado
+                      </th>
+                      <th className="px-3 py-2 text-center font-bold text-muted-foreground">
+                        Presup.
                       </th>
                     </tr>
                   </thead>
@@ -200,6 +279,13 @@ export function PageSugeridos({ data }: Props) {
                               Urgente
                             </Badge>
                           </td>
+                          <td className="px-3 py-2.5 text-center">
+                            {gastoAcumulado.mapa[s.id] ? (
+                              <span title="Cubre dentro del presupuesto disponible" style={{ color: COLORS.success, fontSize: 18 }}>✅</span>
+                            ) : (
+                              <span title="Excede el presupuesto restante" style={{ color: COLORS.danger, fontSize: 18 }}>⚠</span>
+                            )}
+                          </td>
                         </tr>
                       )
                     })}
@@ -250,6 +336,9 @@ export function PageSugeridos({ data }: Props) {
                       </th>
                       <th className="px-3 py-2 text-center font-bold text-muted-foreground">
                         Estado
+                      </th>
+                      <th className="px-3 py-2 text-center font-bold text-muted-foreground">
+                        Presup.
                       </th>
                     </tr>
                   </thead>
@@ -307,6 +396,13 @@ export function PageSugeridos({ data }: Props) {
                             >
                               Normal
                             </Badge>
+                          </td>
+                          <td className="px-3 py-2.5 text-center">
+                            {gastoAcumulado.mapa[s.id] ? (
+                              <span title="Cubre dentro del presupuesto disponible" style={{ color: COLORS.success, fontSize: 18 }}>✅</span>
+                            ) : (
+                              <span title="Excede el presupuesto restante" style={{ color: COLORS.danger, fontSize: 18 }}>⚠</span>
+                            )}
                           </td>
                         </tr>
                       )

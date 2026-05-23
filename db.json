@@ -1,7 +1,7 @@
 {
   "farmacias": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Farmacia 1",
       "ciudad": "Maracaibo",
       "barrio": "Delicias",
@@ -11,7 +11,7 @@
       "activa": true
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Farmacia 2",
       "ciudad": "Maracaibo",
       "barrio": "La Limpia",
@@ -21,7 +21,7 @@
       "activa": true
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "Farmacia 3",
       "ciudad": "San Francisco",
       "barrio": "Coromoto",
@@ -33,252 +33,252 @@
   ],
   "ventas": [
     {
-      "id": 1,
+      "id": "1",
       "farmaciaId": 1,
       "mes": "Ene",
       "unidades": 3500,
       "valor": 84750000
     },
     {
-      "id": 2,
+      "id": "2",
       "farmaciaId": 1,
       "mes": "Feb",
       "unidades": 3200,
       "valor": 77500000
     },
     {
-      "id": 3,
+      "id": "3",
       "farmaciaId": 1,
       "mes": "Mar",
       "unidades": 3800,
       "valor": 92050000
     },
     {
-      "id": 4,
+      "id": "4",
       "farmaciaId": 1,
       "mes": "Abr",
       "unidades": 3650,
       "valor": 88400000
     },
     {
-      "id": 5,
+      "id": "5",
       "farmaciaId": 1,
       "mes": "May",
       "unidades": 4100,
       "valor": 99325000
     },
     {
-      "id": 6,
+      "id": "6",
       "farmaciaId": 1,
       "mes": "Jun",
       "unidades": 3950,
       "valor": 95700000
     },
     {
-      "id": 7,
+      "id": "7",
       "farmaciaId": 1,
       "mes": "Jul",
       "unidades": 4300,
       "valor": 104175000
     },
     {
-      "id": 8,
+      "id": "8",
       "farmaciaId": 1,
       "mes": "Ago",
       "unidades": 4450,
       "valor": 107812500
     },
     {
-      "id": 9,
+      "id": "9",
       "farmaciaId": 1,
       "mes": "Sep",
       "unidades": 4200,
       "valor": 101750000
     },
     {
-      "id": 10,
+      "id": "10",
       "farmaciaId": 1,
       "mes": "Oct",
       "unidades": 4600,
       "valor": 111450000
     },
     {
-      "id": 11,
+      "id": "11",
       "farmaciaId": 1,
       "mes": "Nov",
       "unidades": 4800,
       "valor": 116300000
     },
     {
-      "id": 12,
+      "id": "12",
       "farmaciaId": 1,
       "mes": "Dic",
       "unidades": 5100,
       "valor": 123525000
     },
     {
-      "id": 13,
+      "id": "13",
       "farmaciaId": 2,
       "mes": "Ene",
       "unidades": 1800,
       "valor": 38250000
     },
     {
-      "id": 14,
+      "id": "14",
       "farmaciaId": 2,
       "mes": "Feb",
       "unidades": 1650,
       "valor": 35062500
     },
     {
-      "id": 15,
+      "id": "15",
       "farmaciaId": 2,
       "mes": "Mar",
       "unidades": 1900,
       "valor": 40375000
     },
     {
-      "id": 16,
+      "id": "16",
       "farmaciaId": 2,
       "mes": "Abr",
       "unidades": 1750,
       "valor": 37187500
     },
     {
-      "id": 17,
+      "id": "17",
       "farmaciaId": 2,
       "mes": "May",
       "unidades": 2100,
       "valor": 44625000
     },
     {
-      "id": 18,
+      "id": "18",
       "farmaciaId": 2,
       "mes": "Jun",
       "unidades": 1950,
       "valor": 41437500
     },
     {
-      "id": 19,
+      "id": "19",
       "farmaciaId": 2,
       "mes": "Jul",
       "unidades": 2200,
       "valor": 46750000
     },
     {
-      "id": 20,
+      "id": "20",
       "farmaciaId": 2,
       "mes": "Ago",
       "unidades": 2350,
       "valor": 49937500
     },
     {
-      "id": 21,
+      "id": "21",
       "farmaciaId": 2,
       "mes": "Sep",
       "unidades": 2150,
       "valor": 45687500
     },
     {
-      "id": 22,
+      "id": "22",
       "farmaciaId": 2,
       "mes": "Oct",
       "unidades": 2450,
       "valor": 52062500
     },
     {
-      "id": 23,
+      "id": "23",
       "farmaciaId": 2,
       "mes": "Nov",
       "unidades": 2500,
       "valor": 53125000
     },
     {
-      "id": 24,
+      "id": "24",
       "farmaciaId": 2,
       "mes": "Dic",
       "unidades": 2700,
       "valor": 57375000
     },
     {
-      "id": 25,
+      "id": "25",
       "farmaciaId": 3,
       "mes": "Ene",
       "unidades": 450,
       "valor": 8550000
     },
     {
-      "id": 26,
+      "id": "26",
       "farmaciaId": 3,
       "mes": "Feb",
       "unidades": 520,
       "valor": 9880000
     },
     {
-      "id": 27,
+      "id": "27",
       "farmaciaId": 3,
       "mes": "Mar",
       "unidades": 480,
       "valor": 9120000
     },
     {
-      "id": 28,
+      "id": "28",
       "farmaciaId": 3,
       "mes": "Abr",
       "unidades": 550,
       "valor": 10450000
     },
     {
-      "id": 29,
+      "id": "29",
       "farmaciaId": 3,
       "mes": "May",
       "unidades": 620,
       "valor": 11780000
     },
     {
-      "id": 30,
+      "id": "30",
       "farmaciaId": 3,
       "mes": "Jun",
       "unidades": 580,
       "valor": 11020000
     },
     {
-      "id": 31,
+      "id": "31",
       "farmaciaId": 3,
       "mes": "Jul",
       "unidades": 650,
       "valor": 12350000
     },
     {
-      "id": 32,
+      "id": "32",
       "farmaciaId": 3,
       "mes": "Ago",
       "unidades": 720,
       "valor": 13680000
     },
     {
-      "id": 33,
+      "id": "33",
       "farmaciaId": 3,
       "mes": "Sep",
       "unidades": 680,
       "valor": 12920000
     },
     {
-      "id": 34,
+      "id": "34",
       "farmaciaId": 3,
       "mes": "Oct",
       "unidades": 750,
       "valor": 14250000
     },
     {
-      "id": 35,
+      "id": "35",
       "farmaciaId": 3,
       "mes": "Nov",
       "unidades": 800,
       "valor": 15200000
     },
     {
-      "id": 36,
+      "id": "36",
       "farmaciaId": 3,
       "mes": "Dic",
       "unidades": 850,
@@ -287,91 +287,91 @@
   ],
   "grupos": [
     {
-      "id": 1,
+      "id": "1",
       "farmaciaId": 1,
       "grupo": "Medicamentos genéricos",
       "peso": 42
     },
     {
-      "id": 2,
+      "id": "2",
       "farmaciaId": 1,
       "grupo": "Medicamentos de marca",
       "peso": 28
     },
     {
-      "id": 3,
+      "id": "3",
       "farmaciaId": 1,
       "grupo": "Suplementos / OTC",
       "peso": 15
     },
     {
-      "id": 4,
+      "id": "4",
       "farmaciaId": 1,
       "grupo": "Cuidado personal",
       "peso": 10
     },
     {
-      "id": 5,
+      "id": "5",
       "farmaciaId": 1,
       "grupo": "Dispositivos médicos",
       "peso": 5
     },
     {
-      "id": 6,
+      "id": "6",
       "farmaciaId": 2,
       "grupo": "Medicamentos genéricos",
       "peso": 35
     },
     {
-      "id": 7,
+      "id": "7",
       "farmaciaId": 2,
       "grupo": "Medicamentos de marca",
       "peso": 30
     },
     {
-      "id": 8,
+      "id": "8",
       "farmaciaId": 2,
       "grupo": "Suplementos / OTC",
       "peso": 20
     },
     {
-      "id": 9,
+      "id": "9",
       "farmaciaId": 2,
       "grupo": "Cuidado personal",
       "peso": 10
     },
     {
-      "id": 10,
+      "id": "10",
       "farmaciaId": 2,
       "grupo": "Dispositivos médicos",
       "peso": 5
     },
     {
-      "id": 11,
+      "id": "11",
       "farmaciaId": 3,
       "grupo": "Medicamentos genéricos",
       "peso": 50
     },
     {
-      "id": 12,
+      "id": "12",
       "farmaciaId": 3,
       "grupo": "Medicamentos de marca",
       "peso": 15
     },
     {
-      "id": 13,
+      "id": "13",
       "farmaciaId": 3,
       "grupo": "Suplementos / OTC",
       "peso": 20
     },
     {
-      "id": 14,
+      "id": "14",
       "farmaciaId": 3,
       "grupo": "Cuidado personal",
       "peso": 10
     },
     {
-      "id": 15,
+      "id": "15",
       "farmaciaId": 3,
       "grupo": "Dispositivos médicos",
       "peso": 5
@@ -379,210 +379,210 @@
   ],
   "top10": [
     {
-      "id": 1,
+      "id": "1",
       "farmaciaId": 1,
       "articulo": "Acetaminofén 500mg",
       "unidades": 4500,
       "valor": 83250000
     },
     {
-      "id": 2,
+      "id": "2",
       "farmaciaId": 1,
       "articulo": "Ibuprofeno 400mg",
       "unidades": 3800,
       "valor": 70300000
     },
     {
-      "id": 3,
+      "id": "3",
       "farmaciaId": 1,
       "articulo": "Loratadina 10mg",
       "unidades": 3200,
       "valor": 60160000
     },
     {
-      "id": 4,
+      "id": "4",
       "farmaciaId": 1,
       "articulo": "Omeprazol 20mg",
       "unidades": 2900,
       "valor": 53650000
     },
     {
-      "id": 5,
+      "id": "5",
       "farmaciaId": 1,
       "articulo": "Metformina 500mg",
       "unidades": 2500,
       "valor": 46250000
     },
     {
-      "id": 6,
+      "id": "6",
       "farmaciaId": 1,
       "articulo": "Atorvastatina 20mg",
       "unidades": 2100,
       "valor": 38850000
     },
     {
-      "id": 7,
+      "id": "7",
       "farmaciaId": 1,
       "articulo": "Clonazepam 0.5mg",
       "unidades": 1850,
       "valor": 34225000
     },
     {
-      "id": 8,
+      "id": "8",
       "farmaciaId": 1,
       "articulo": "Amoxicilina 500mg",
       "unidades": 1600,
       "valor": 29600000
     },
     {
-      "id": 9,
+      "id": "9",
       "farmaciaId": 1,
       "articulo": "Salbutamol Inhalador",
       "unidades": 1400,
       "valor": 25900000
     },
     {
-      "id": 10,
+      "id": "10",
       "farmaciaId": 1,
       "articulo": "Diclofenaco 50mg",
       "unidades": 1200,
       "valor": 22200000
     },
     {
-      "id": 11,
+      "id": "11",
       "farmaciaId": 2,
       "articulo": "Omeprazol 20mg",
       "unidades": 2200,
       "valor": 40700000
     },
     {
-      "id": 12,
+      "id": "12",
       "farmaciaId": 2,
       "articulo": "Acetaminofén 500mg",
       "unidades": 1950,
       "valor": 36075000
     },
     {
-      "id": 13,
+      "id": "13",
       "farmaciaId": 2,
       "articulo": "Losartán 50mg",
       "unidades": 1800,
       "valor": 33300000
     },
     {
-      "id": 14,
+      "id": "14",
       "farmaciaId": 2,
       "articulo": "Amlodipino 5mg",
       "unidades": 1650,
       "valor": 30525000
     },
     {
-      "id": 15,
+      "id": "15",
       "farmaciaId": 2,
       "articulo": "Metformina 500mg",
       "unidades": 1500,
       "valor": 27750000
     },
     {
-      "id": 16,
+      "id": "16",
       "farmaciaId": 2,
       "articulo": "Enalapril 10mg",
       "unidades": 1350,
       "valor": 24975000
     },
     {
-      "id": 17,
+      "id": "17",
       "farmaciaId": 2,
       "articulo": "Ibuprofeno 400mg",
       "unidades": 1200,
       "valor": 22200000
     },
     {
-      "id": 18,
+      "id": "18",
       "farmaciaId": 2,
       "articulo": "Vitamina D3 1000UI",
       "unidades": 1100,
       "valor": 20350000
     },
     {
-      "id": 19,
+      "id": "19",
       "farmaciaId": 2,
       "articulo": "Loratadina 10mg",
       "unidades": 950,
       "valor": 17575000
     },
     {
-      "id": 20,
+      "id": "20",
       "farmaciaId": 2,
       "articulo": "Paracetamol 500mg",
       "unidades": 850,
       "valor": 15725000
     },
     {
-      "id": 21,
+      "id": "21",
       "farmaciaId": 3,
       "articulo": "Acetaminofén 500mg",
       "unidades": 950,
       "valor": 17575000
     },
     {
-      "id": 22,
+      "id": "22",
       "farmaciaId": 3,
       "articulo": "Ibuprofeno 400mg",
       "unidades": 720,
       "valor": 13320000
     },
     {
-      "id": 23,
+      "id": "23",
       "farmaciaId": 3,
       "articulo": "Paracetamol 500mg",
       "unidades": 680,
       "valor": 12580000
     },
     {
-      "id": 24,
+      "id": "24",
       "farmaciaId": 3,
       "articulo": "Loratadina 10mg",
       "unidades": 520,
       "valor": 9620000
     },
     {
-      "id": 25,
+      "id": "25",
       "farmaciaId": 3,
       "articulo": "Omeprazol 20mg",
       "unidades": 480,
       "valor": 8880000
     },
     {
-      "id": 26,
+      "id": "26",
       "farmaciaId": 3,
       "articulo": "Vitamina C 500mg",
       "unidades": 420,
       "valor": 7770000
     },
     {
-      "id": 27,
+      "id": "27",
       "farmaciaId": 3,
       "articulo": "Bismutol Jarabe",
       "unidades": 380,
       "valor": 7030000
     },
     {
-      "id": 28,
+      "id": "28",
       "farmaciaId": 3,
       "articulo": "Ambroxol Jarabe",
       "unidades": 350,
       "valor": 6475000
     },
     {
-      "id": 29,
+      "id": "29",
       "farmaciaId": 3,
       "articulo": "Metoclopramida 10mg",
       "unidades": 280,
       "valor": 5180000
     },
     {
-      "id": 30,
+      "id": "30",
       "farmaciaId": 3,
       "articulo": "Diclofenaco 50mg",
       "unidades": 250,
@@ -591,49 +591,49 @@
   ],
   "marcas": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Bayer"
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Reckitt"
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "Sanofi"
     },
     {
-      "id": 4,
+      "id": "4",
       "nombre": "Abbott"
     },
     {
-      "id": 5,
+      "id": "5",
       "nombre": "Novartis"
     },
     {
-      "id": 6,
+      "id": "6",
       "nombre": "Genfar"
     },
     {
-      "id": 7,
+      "id": "7",
       "nombre": "LaBo"
     },
     {
-      "id": 8,
+      "id": "8",
       "nombre": "MK"
     },
     {
-      "id": 9,
+      "id": "9",
       "nombre": "Chalver"
     },
     {
-      "id": 10,
+      "id": "10",
       "nombre": "Tecnoquímicas"
     }
   ],
   "marcasData": [
     {
-      "id": 1,
+      "id": "1",
       "marcaId": 1,
       "farmaciaId": null,
       "mensual": [
@@ -702,7 +702,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "marcaId": 2,
       "farmaciaId": null,
       "mensual": [
@@ -771,7 +771,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "marcaId": 3,
       "farmaciaId": null,
       "mensual": [
@@ -840,7 +840,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "marcaId": 4,
       "farmaciaId": null,
       "mensual": [
@@ -909,7 +909,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "marcaId": 5,
       "farmaciaId": null,
       "mensual": [
@@ -978,7 +978,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "marcaId": 6,
       "farmaciaId": null,
       "mensual": [
@@ -1047,7 +1047,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "marcaId": 7,
       "farmaciaId": null,
       "mensual": [
@@ -1116,7 +1116,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "marcaId": 8,
       "farmaciaId": null,
       "mensual": [
@@ -1185,7 +1185,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "marcaId": 9,
       "farmaciaId": null,
       "mensual": [
@@ -1254,7 +1254,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "marcaId": 10,
       "farmaciaId": null,
       "mensual": [
@@ -1325,7 +1325,7 @@
   ],
   "alertas": [
     {
-      "id": 1,
+      "id": "1",
       "farmaciaId": 1,
       "producto": "Cetirizina 10mg 30c",
       "stock": 145,
@@ -1333,7 +1333,7 @@
       "nivel": "alto"
     },
     {
-      "id": 2,
+      "id": "2",
       "farmaciaId": 1,
       "producto": "Vitamina D3 2000UI",
       "stock": 230,
@@ -1341,7 +1341,7 @@
       "nivel": "alto"
     },
     {
-      "id": 3,
+      "id": "3",
       "farmaciaId": 1,
       "producto": "Omega 3 1000mg",
       "stock": 175,
@@ -1349,7 +1349,7 @@
       "nivel": "medio"
     },
     {
-      "id": 4,
+      "id": "4",
       "farmaciaId": 1,
       "producto": "Aspirina 100mg",
       "stock": 95,
@@ -1357,7 +1357,7 @@
       "nivel": "bajo"
     },
     {
-      "id": 5,
+      "id": "5",
       "farmaciaId": 2,
       "producto": "Gel Antibacterial 500ml",
       "stock": 88,
@@ -1365,7 +1365,7 @@
       "nivel": "medio"
     },
     {
-      "id": 6,
+      "id": "6",
       "farmaciaId": 2,
       "producto": "Antifúngico Tópico",
       "stock": 62,
@@ -1373,7 +1373,7 @@
       "nivel": "medio"
     },
     {
-      "id": 7,
+      "id": "7",
       "farmaciaId": 2,
       "producto": "Bicarbonato de Sodio",
       "stock": 310,
@@ -1381,7 +1381,7 @@
       "nivel": "bajo"
     },
     {
-      "id": 8,
+      "id": "8",
       "farmaciaId": 3,
       "producto": "Paracetamol 500mg Jarabe",
       "stock": 45,
@@ -1389,7 +1389,7 @@
       "nivel": "alto"
     },
     {
-      "id": 9,
+      "id": "9",
       "farmaciaId": 3,
       "producto": "Miconazol Crema",
       "stock": 38,
@@ -1397,7 +1397,7 @@
       "nivel": "alto"
     },
     {
-      "id": 10,
+      "id": "10",
       "farmaciaId": 3,
       "producto": "Vitamina B12 Iny.",
       "stock": 25,
@@ -1406,13 +1406,25 @@
     }
   ],
   "skus": [
-    { "farmaciaId": 1, "total": 10 },
-    { "farmaciaId": 2, "total": 10 },
-    { "farmaciaId": 3, "total": 10 }
+    {
+      "farmaciaId": 1,
+      "total": 10,
+      "id": "iWEYwUVVfr8"
+    },
+    {
+      "farmaciaId": 2,
+      "total": 10,
+      "id": "6hA0XXbJ_EU"
+    },
+    {
+      "farmaciaId": 3,
+      "total": 10,
+      "id": "0xYuA7kgDFM"
+    }
   ],
   "sugeridos": [
     {
-      "id": 1,
+      "id": "1",
       "farmaciaId": 1,
       "codigo": "7597758000503",
       "producto": "CARBAMAZEPINA 200MG X30TAB",
@@ -1425,7 +1437,7 @@
       "urgente": true
     },
     {
-      "id": 2,
+      "id": "2",
       "farmaciaId": 1,
       "codigo": "7597758000060",
       "producto": "OMEFLUX 20MG X 10 CAP",
@@ -1438,7 +1450,7 @@
       "urgente": true
     },
     {
-      "id": 3,
+      "id": "3",
       "farmaciaId": 1,
       "codigo": "7597758000534",
       "producto": "METRONIDAZOL 500MG X 10 TAB",
@@ -1451,7 +1463,7 @@
       "urgente": true
     },
     {
-      "id": 4,
+      "id": "4",
       "farmaciaId": 1,
       "codigo": "7597758000176",
       "producto": "IBUPROFENO 400MG TAB X 10",
@@ -1464,7 +1476,7 @@
       "urgente": true
     },
     {
-      "id": 5,
+      "id": "5",
       "farmaciaId": 1,
       "codigo": "7597758000657",
       "producto": "CLOTRIMAZOL 200MG X 3 OVULOS",
@@ -1477,7 +1489,7 @@
       "urgente": true
     },
     {
-      "id": 6,
+      "id": "6",
       "farmaciaId": 1,
       "codigo": "7597758000138",
       "producto": "LOSARTAN POTASICO 50MG X 30 TAB",
@@ -1490,7 +1502,7 @@
       "urgente": false
     },
     {
-      "id": 7,
+      "id": "7",
       "farmaciaId": 1,
       "codigo": "7597758000084",
       "producto": "METFORMINA CLORHIDRATO 500MG X 30 TAB",
@@ -1503,7 +1515,7 @@
       "urgente": false
     },
     {
-      "id": 8,
+      "id": "8",
       "farmaciaId": 1,
       "codigo": "7597758000756",
       "producto": "AMLODIPINA 5MG X30TAB",
@@ -1516,7 +1528,7 @@
       "urgente": false
     },
     {
-      "id": 9,
+      "id": "9",
       "farmaciaId": 1,
       "codigo": "7597758000817",
       "producto": "LORATADINA 10MG X 10 TAB",
@@ -1529,7 +1541,7 @@
       "urgente": false
     },
     {
-      "id": 10,
+      "id": "10",
       "farmaciaId": 1,
       "codigo": "7597758001050",
       "producto": "CLOTRIMAZOL CREM TOP 1% 20GR",
@@ -1542,7 +1554,7 @@
       "urgente": false
     },
     {
-      "id": 11,
+      "id": "11",
       "farmaciaId": 2,
       "codigo": "7597758000060",
       "producto": "OMEFLUX 20MG X 10 CAP",
@@ -1555,7 +1567,7 @@
       "urgente": true
     },
     {
-      "id": 12,
+      "id": "12",
       "farmaciaId": 2,
       "codigo": "7597758000817",
       "producto": "LORATADINA 10MG X 10 TAB",
@@ -1568,7 +1580,7 @@
       "urgente": false
     },
     {
-      "id": 13,
+      "id": "13",
       "farmaciaId": 2,
       "codigo": "7597758000084",
       "producto": "METFORMINA CLORHIDRATO 500MG X 30 TAB",
@@ -1581,7 +1593,7 @@
       "urgente": false
     },
     {
-      "id": 14,
+      "id": "14",
       "farmaciaId": 2,
       "codigo": "7597758000732",
       "producto": "ATORVASTATINA 20MG X30 TAB",
@@ -1594,7 +1606,7 @@
       "urgente": false
     },
     {
-      "id": 15,
+      "id": "15",
       "farmaciaId": 2,
       "codigo": "7597758000756",
       "producto": "AMLODIPINA 5MG X30TAB",
@@ -1607,7 +1619,7 @@
       "urgente": false
     },
     {
-      "id": 16,
+      "id": "16",
       "farmaciaId": 2,
       "codigo": "7597758000657",
       "producto": "CLOTRIMAZOL 200MG X 3 OVULOS",
@@ -1620,7 +1632,7 @@
       "urgente": false
     },
     {
-      "id": 17,
+      "id": "17",
       "farmaciaId": 2,
       "codigo": "7597758000053",
       "producto": "TIOCOLCHICOSIDO 4MG-2ML AMP",
@@ -1633,7 +1645,7 @@
       "urgente": false
     },
     {
-      "id": 18,
+      "id": "18",
       "farmaciaId": 3,
       "codigo": "7597758000596",
       "producto": "ACETAMINOFEN 500MG X20 TAB",
@@ -1646,7 +1658,7 @@
       "urgente": true
     },
     {
-      "id": 19,
+      "id": "19",
       "farmaciaId": 3,
       "codigo": "7597758000459",
       "producto": "ACETAMINOFEN JBE 180MG-5ML X120ML",
@@ -1659,7 +1671,7 @@
       "urgente": false
     },
     {
-      "id": 20,
+      "id": "20",
       "farmaciaId": 3,
       "codigo": "7597758000503",
       "producto": "CARBAMAZEPINA 200MG X30TAB",
@@ -1672,12 +1684,12 @@
       "urgente": true
     },
     {
-      "id": 21,
+      "id": "21",
       "farmaciaId": 3,
       "codigo": "7597758001524",
       "producto": "AMOXTIN 500MG+125MG X 10TAB",
       "marca": "ALESS",
-      "precio": 4.20,
+      "precio": 4.2,
       "ventas3m": 23,
       "stock": 5,
       "sugerido": 10,
@@ -1685,7 +1697,7 @@
       "urgente": false
     },
     {
-      "id": 22,
+      "id": "22",
       "farmaciaId": 3,
       "codigo": "7597758000121",
       "producto": "BISOPROLOL FUMARATO 5 MG X 30 TAB",
@@ -1697,5 +1709,689 @@
       "transito": 0,
       "urgente": false
     }
-  ]
+  ],
+  "marcaTopProductos": [
+    {
+      "id": "1",
+      "marcaId": 6,
+      "producto": "Acetaminofén 500mg",
+      "unidades": 7400,
+      "valor": 136900000,
+      "participacion": 42.3
+    },
+    {
+      "id": "2",
+      "marcaId": 6,
+      "producto": "Omeprazol 20mg",
+      "unidades": 3380,
+      "valor": 62530000,
+      "participacion": 19.3
+    },
+    {
+      "id": "3",
+      "marcaId": 6,
+      "producto": "Metformina 500mg",
+      "unidades": 4000,
+      "valor": 74000000,
+      "participacion": 22.9
+    },
+    {
+      "id": "4",
+      "marcaId": 6,
+      "producto": "Amoxicilina 500mg",
+      "unidades": 1600,
+      "valor": 29600000,
+      "participacion": 9.1
+    },
+    {
+      "id": "5",
+      "marcaId": 6,
+      "producto": "Atorvastatina 20mg",
+      "unidades": 1100,
+      "valor": 20350000,
+      "participacion": 6.4
+    },
+    {
+      "id": "6",
+      "marcaId": 1,
+      "producto": "Ibuprofeno 400mg",
+      "unidades": 4520,
+      "valor": 83620000,
+      "participacion": 45.2
+    },
+    {
+      "id": "7",
+      "marcaId": 1,
+      "producto": "Diclofenaco 50mg",
+      "unidades": 1450,
+      "valor": 26825000,
+      "participacion": 14.5
+    },
+    {
+      "id": "8",
+      "marcaId": 1,
+      "producto": "Naproxeno 500mg",
+      "unidades": 2100,
+      "valor": 38850000,
+      "participacion": 21
+    },
+    {
+      "id": "9",
+      "marcaId": 1,
+      "producto": "Aspirina 100mg",
+      "unidades": 1250,
+      "valor": 23125000,
+      "participacion": 12.5
+    },
+    {
+      "id": "10",
+      "marcaId": 1,
+      "producto": "Vitamina E 400UI",
+      "unidades": 680,
+      "valor": 12580000,
+      "participacion": 6.8
+    },
+    {
+      "id": "11",
+      "marcaId": 10,
+      "producto": "Loratadina 10mg",
+      "unidades": 4150,
+      "valor": 77740000,
+      "participacion": 48
+    },
+    {
+      "id": "12",
+      "marcaId": 10,
+      "producto": "Salbutamol Inhalador",
+      "unidades": 1400,
+      "valor": 25900000,
+      "participacion": 16.2
+    },
+    {
+      "id": "13",
+      "marcaId": 10,
+      "producto": "Dexametasona 4mg",
+      "unidades": 1850,
+      "valor": 34225000,
+      "participacion": 21.4
+    },
+    {
+      "id": "14",
+      "marcaId": 10,
+      "producto": "Hidroclorotiazida 25mg",
+      "unidades": 1250,
+      "valor": 23125000,
+      "participacion": 14.4
+    },
+    {
+      "id": "15",
+      "marcaId": 5,
+      "producto": "Atorvastatina 20mg",
+      "unidades": 2100,
+      "valor": 38850000,
+      "participacion": 35.6
+    },
+    {
+      "id": "16",
+      "marcaId": 5,
+      "producto": "Clonazepam 0.5mg",
+      "unidades": 1850,
+      "valor": 34225000,
+      "participacion": 31.4
+    },
+    {
+      "id": "17",
+      "marcaId": 5,
+      "producto": "Valsartán 80mg",
+      "unidades": 1200,
+      "valor": 22200000,
+      "participacion": 20.3
+    },
+    {
+      "id": "18",
+      "marcaId": 5,
+      "producto": "Exemestano 25mg",
+      "unidades": 750,
+      "valor": 13875000,
+      "participacion": 12.7
+    },
+    {
+      "id": "19",
+      "marcaId": 8,
+      "producto": "Losartán 50mg",
+      "unidades": 1800,
+      "valor": 33300000,
+      "participacion": 32.7
+    },
+    {
+      "id": "20",
+      "marcaId": 8,
+      "producto": "Amlodipino 5mg",
+      "unidades": 1650,
+      "valor": 30525000,
+      "participacion": 30
+    },
+    {
+      "id": "21",
+      "marcaId": 8,
+      "producto": "Enalapril 10mg",
+      "unidades": 1350,
+      "valor": 24975000,
+      "participacion": 24.5
+    },
+    {
+      "id": "22",
+      "marcaId": 8,
+      "producto": "Carvedilol 25mg",
+      "unidades": 700,
+      "valor": 12950000,
+      "participacion": 12.8
+    },
+    {
+      "id": "23",
+      "marcaId": 4,
+      "producto": "Vitamina D3 1000UI",
+      "unidades": 1100,
+      "valor": 20350000,
+      "participacion": 52.4
+    },
+    {
+      "id": "24",
+      "marcaId": 4,
+      "producto": "Vitamina C 500mg",
+      "unidades": 420,
+      "valor": 7770000,
+      "participacion": 20
+    },
+    {
+      "id": "25",
+      "marcaId": 4,
+      "producto": "Hierro Sulfato 200mg",
+      "unidades": 580,
+      "valor": 10730000,
+      "participacion": 27.6
+    },
+    {
+      "id": "26",
+      "marcaId": 2,
+      "producto": "Paracetamol 500mg",
+      "unidades": 1530,
+      "valor": 28305000,
+      "participacion": 35.1
+    },
+    {
+      "id": "27",
+      "marcaId": 2,
+      "producto": "Bismutol Jarabe",
+      "unidades": 380,
+      "valor": 7030000,
+      "participacion": 8.7
+    },
+    {
+      "id": "28",
+      "marcaId": 2,
+      "producto": "Gel Antibacterial 500ml",
+      "unidades": 1450,
+      "valor": 26825000,
+      "participacion": 33.3
+    },
+    {
+      "id": "29",
+      "marcaId": 2,
+      "producto": "Antifúngico Tópico",
+      "unidades": 1000,
+      "valor": 18500000,
+      "participacion": 22.9
+    },
+    {
+      "id": "30",
+      "marcaId": 3,
+      "producto": "Ambroxol Jarabe",
+      "unidades": 350,
+      "valor": 6475000,
+      "participacion": 28
+    },
+    {
+      "id": "31",
+      "marcaId": 3,
+      "producto": "Metoclopramida 10mg",
+      "unidades": 280,
+      "valor": 5180000,
+      "participacion": 22.4
+    },
+    {
+      "id": "32",
+      "marcaId": 3,
+      "producto": "Furosemida 40mg",
+      "unidades": 420,
+      "valor": 7770000,
+      "participacion": 33.6
+    },
+    {
+      "id": "33",
+      "marcaId": 3,
+      "producto": "Ranitidina 150mg",
+      "unidades": 200,
+      "valor": 3700000,
+      "participacion": 16
+    },
+    {
+      "id": "34",
+      "marcaId": 7,
+      "producto": "Complejo B Inyectable",
+      "unidades": 520,
+      "valor": 9620000,
+      "participacion": 35.1
+    },
+    {
+      "id": "35",
+      "marcaId": 7,
+      "producto": "Diclofenaco Gel",
+      "unidades": 480,
+      "valor": 8880000,
+      "participacion": 32.4
+    },
+    {
+      "id": "36",
+      "marcaId": 7,
+      "producto": "Ketorolaco 10mg",
+      "unidades": 380,
+      "valor": 7030000,
+      "participacion": 25.7
+    },
+    {
+      "id": "37",
+      "marcaId": 7,
+      "producto": "Hioscina 10mg",
+      "unidades": 100,
+      "valor": 1850000,
+      "participacion": 6.8
+    },
+    {
+      "id": "38",
+      "marcaId": 9,
+      "producto": "Miconazol Crema",
+      "unidades": 380,
+      "valor": 7030000,
+      "participacion": 31.1
+    },
+    {
+      "id": "39",
+      "marcaId": 9,
+      "producto": "Cetirizina 10mg",
+      "unidades": 290,
+      "valor": 5365000,
+      "participacion": 23.8
+    },
+    {
+      "id": "40",
+      "marcaId": 9,
+      "producto": "Bicarbonato de Sodio",
+      "unidades": 310,
+      "valor": 5735000,
+      "participacion": 25.4
+    },
+    {
+      "id": "41",
+      "marcaId": 9,
+      "producto": "Omeprazol 10mg",
+      "unidades": 240,
+      "valor": 4440000,
+      "participacion": 19.7
+    }
+  ],
+  "marcasRanking": [
+    {
+      "id": "1",
+      "marcaId": 6,
+      "nombre": "Genfar",
+      "unidades": 17480,
+      "valor": 323400000
+    },
+    {
+      "id": "2",
+      "marcaId": 1,
+      "nombre": "Bayer",
+      "unidades": 10000,
+      "valor": 185000000
+    },
+    {
+      "id": "3",
+      "marcaId": 10,
+      "nombre": "Tecnoquímicas",
+      "unidades": 8650,
+      "valor": 161010000
+    },
+    {
+      "id": "4",
+      "marcaId": 5,
+      "nombre": "Novartis",
+      "unidades": 5900,
+      "valor": 109150000
+    },
+    {
+      "id": "5",
+      "marcaId": 8,
+      "nombre": "MK",
+      "unidades": 5500,
+      "valor": 101750000
+    },
+    {
+      "id": "6",
+      "marcaId": 2,
+      "nombre": "Reckitt",
+      "unidades": 4360,
+      "valor": 80660000
+    },
+    {
+      "id": "7",
+      "marcaId": 4,
+      "nombre": "Abbott",
+      "unidades": 2100,
+      "valor": 38850000
+    },
+    {
+      "id": "8",
+      "marcaId": 7,
+      "nombre": "LaBo",
+      "unidades": 1480,
+      "valor": 27380000
+    },
+    {
+      "id": "9",
+      "marcaId": 3,
+      "nombre": "Sanofi",
+      "unidades": 1250,
+      "valor": 23125000
+    },
+    {
+      "id": "10",
+      "marcaId": 9,
+      "nombre": "Chalver",
+      "unidades": 1220,
+      "valor": 22570000
+    }
+  ],
+  "proveedores": [
+    {
+      "id": "1",
+      "nombre": "Distribuidora Farmacéutica ABC",
+      "nit": "900.123.456-7",
+      "telefono": "601-555-1000",
+      "email": "ventas@dfabc.com",
+      "contacto": "María López",
+      "diasFlete": 5,
+      "activo": true
+    },
+    {
+      "id": "2",
+      "nombre": "Farmacéutica Nacional S.A.S.",
+      "nit": "900.234.567-8",
+      "telefono": "601-555-2000",
+      "email": "pedidos@farnacional.com",
+      "contacto": "Carlos Gómez",
+      "diasFlete": 3,
+      "activo": true
+    },
+    {
+      "id": "3",
+      "nombre": "Laboratorios Genfar",
+      "nit": "800.345.678-9",
+      "telefono": "602-555-3000",
+      "email": "ventas@genfar.com.co",
+      "contacto": "Ana Martínez",
+      "diasFlete": 7,
+      "activo": true
+    },
+    {
+      "id": "4",
+      "nombre": "Droguería Mayorista Med Plus",
+      "nit": "900.456.789-0",
+      "telefono": "604-555-4000",
+      "email": "compras@medplus.com",
+      "contacto": "Pedro Ramírez",
+      "diasFlete": 4,
+      "activo": true
+    },
+    {
+      "id": "5",
+      "nombre": "Proveedora Farmacéutica del Sur",
+      "nit": "800.567.890-1",
+      "telefono": "602-555-5000",
+      "email": "pedidos@provefarmasur.com",
+      "contacto": "Luisa Fernández",
+      "diasFlete": 10,
+      "activo": true
+    },
+    {
+      "id": "6",
+      "nombre": "Distribuidora de Insumos Médicos",
+      "nit": "900.678.901-2",
+      "telefono": "601-555-6000",
+      "email": "ventas@dimedic.com",
+      "contacto": "Diego Rojas",
+      "diasFlete": 6,
+      "activo": false
+    }
+  ],
+  "ordenesCompra": [
+    {
+      "id": "1",
+      "proveedorId": 2,
+      "farmaciaId": 1,
+      "fechaPedido": "2026-05-20",
+      "items": [
+        {
+          "producto": "Acetaminofén 500mg",
+          "cantidad": 200,
+          "precioUnit": 8500
+        },
+        {
+          "producto": "Metformina 500mg",
+          "cantidad": 150,
+          "precioUnit": 12500
+        }
+      ],
+      "total": 3575000,
+      "estado": "en_transito"
+    },
+    {
+      "id": "2",
+      "proveedorId": 1,
+      "farmaciaId": 1,
+      "fechaPedido": "2026-05-22",
+      "items": [
+        {
+          "producto": "Loratadina 10mg",
+          "cantidad": 300,
+          "precioUnit": 6500
+        }
+      ],
+      "total": 1950000,
+      "estado": "pendiente"
+    },
+    {
+      "id": "3",
+      "proveedorId": 3,
+      "farmaciaId": 2,
+      "fechaPedido": "2026-05-10",
+      "items": [
+        {
+          "producto": "Omeprazol 20mg",
+          "cantidad": 100,
+          "precioUnit": 14500
+        },
+        {
+          "producto": "Amoxicilina 500mg",
+          "cantidad": 80,
+          "precioUnit": 18200
+        },
+        {
+          "producto": "Acetaminofén 500mg",
+          "cantidad": 200,
+          "precioUnit": 8500
+        }
+      ],
+      "total": 4510000,
+      "estado": "en_transito"
+    },
+    {
+      "id": "4",
+      "proveedorId": 4,
+      "farmaciaId": 2,
+      "fechaPedido": "2026-05-23",
+      "items": [
+        {
+          "producto": "Ibuprofeno 400mg",
+          "cantidad": 250,
+          "precioUnit": 9200
+        }
+      ],
+      "total": 2300000,
+      "estado": "pendiente"
+    },
+    {
+      "id": "5",
+      "proveedorId": 5,
+      "farmaciaId": 3,
+      "fechaPedido": "2026-05-01",
+      "items": [
+        {
+          "producto": "Vitamina C 500mg",
+          "cantidad": 100,
+          "precioUnit": 18500
+        },
+        {
+          "producto": "Ambroxol Jarabe",
+          "cantidad": 60,
+          "precioUnit": 22400
+        }
+      ],
+      "total": 3194000,
+      "estado": "retrasado"
+    },
+    {
+      "id": "6",
+      "proveedorId": 1,
+      "farmaciaId": 3,
+      "fechaPedido": "2026-05-18",
+      "items": [
+        {
+          "producto": "Diclofenaco 50mg",
+          "cantidad": 120,
+          "precioUnit": 10500
+        },
+        {
+          "producto": "Paracetamol 500mg",
+          "cantidad": 150,
+          "precioUnit": 7200
+        }
+      ],
+      "total": 2340000,
+      "estado": "recibido"
+    },
+    {
+      "id": "7",
+      "proveedorId": 2,
+      "farmaciaId": 1,
+      "fechaPedido": "2026-05-15",
+      "items": [
+        {
+          "producto": "Salbutamol Inhalador",
+          "cantidad": 50,
+          "precioUnit": 28500
+        }
+      ],
+      "total": 1425000,
+      "estado": "recibido"
+    },
+    {
+      "id": "8",
+      "proveedorId": 4,
+      "farmaciaId": 1,
+      "fechaPedido": "2026-05-05",
+      "items": [
+        {
+          "producto": "Losartán 50mg",
+          "cantidad": 180,
+          "precioUnit": 11500
+        },
+        {
+          "producto": "Amlodipino 5mg",
+          "cantidad": 120,
+          "precioUnit": 9800
+        }
+      ],
+      "total": 3246000,
+      "estado": "retrasado"
+    },
+    {
+      "id": "9",
+      "proveedorId": 3,
+      "farmaciaId": 3,
+      "fechaPedido": "2026-05-21",
+      "items": [
+        {
+          "producto": "Metformina 500mg",
+          "cantidad": 100,
+          "precioUnit": 12500
+        }
+      ],
+      "total": 1250000,
+      "estado": "en_transito"
+    },
+    {
+      "id": "10",
+      "proveedorId": 5,
+      "farmaciaId": 2,
+      "fechaPedido": "2026-04-28",
+      "items": [
+        {
+          "producto": "Bismutol Jarabe",
+          "cantidad": 80,
+          "precioUnit": 16800
+        },
+        {
+          "producto": "Vitamina D3 1000UI",
+          "cantidad": 60,
+          "precioUnit": 19500
+        }
+      ],
+      "total": 2514000,
+      "estado": "recibido"
+    },
+    {
+      "proveedorId": 2,
+      "farmaciaId": 2,
+      "fechaPedido": "2026-05-22",
+      "items": [
+        {
+          "producto": "50",
+          "cantidad": 100,
+          "precioUnit": 100
+        }
+      ],
+      "total": 10000,
+      "estado": "pendiente",
+      "id": "3xJBnNm8FiE"
+    }
+  ],
+  "presupuestos": [
+    {
+      "farmaciaId": 1,
+      "monto": 15000000,
+      "id": "AoQdSQ4RZlY"
+    },
+    {
+      "farmaciaId": 2,
+      "monto": 8000000,
+      "id": "N5iCdKbHKyk"
+    },
+    {
+      "farmaciaId": 3,
+      "monto": 3000000,
+      "id": "kQZMCZ2v3xA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

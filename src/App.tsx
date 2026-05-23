@@ -10,12 +10,13 @@ import {
 } from "./components/ui/select"
 import { PanelLeft, PanelLeftClose, Menu } from "lucide-react"
 import { Login } from "./components/Login"
-import { FilterProvider, type DataState } from "./components/FilterContext"
+import { FilterProvider, type DataState, type OrdenCompra } from "./components/FilterContext"
 import { PageResumen } from "./components/PageResumen"
 import { PageMarcas } from "./components/PageMarcas"
 import { PageAlertas } from "./components/PageAlertas"
 import { PageFarmacias } from "./components/PageFarmacias"
 import { PageSugeridos } from "./components/PageSugeridos"
+import { PageProveedores } from "./components/PageProveedores"
 import db from "../db.json"
 
 const STORAGE_KEY = "phardash_logged"
@@ -26,6 +27,7 @@ const NAV = [
   { id: "marcas", label: "Marcas" },
   { id: "alertas", label: "Alertas" },
   { id: "sugeridos", label: "Sugeridos" },
+  { id: "proveedores", label: "Proveedores" },
   { id: "farmacias", label: "Farmacias" },
 ]
 
@@ -115,6 +117,11 @@ function DashboardLayout() {
     alertas: [],
     skus: [],
     sugeridos: [],
+    marcaTopProductos: [],
+    marcasRanking: [],
+    proveedores: [],
+    ordenesCompra: [],
+    presupuestos: [],
     loading: true,
   })
 
@@ -134,6 +141,11 @@ function DashboardLayout() {
           alertas: apiData.alertas || [],
           skus: apiData.skus || [],
           sugeridos: apiData.sugeridos || [],
+          marcaTopProductos: apiData.marcaTopProductos || [],
+          marcasRanking: apiData.marcasRanking || [],
+          proveedores: apiData.proveedores || [],
+          ordenesCompra: apiData.ordenesCompra || [],
+          presupuestos: apiData.presupuestos || [],
           loading: false,
         })
       } else {
@@ -150,6 +162,11 @@ function DashboardLayout() {
         alertas: db.alertas,
         skus: db.skus,
         sugeridos: db.sugeridos || [],
+        marcaTopProductos: db.marcaTopProductos || [],
+        marcasRanking: db.marcasRanking || [],
+        proveedores: db.proveedores || [],
+        ordenesCompra: (db.ordenesCompra || []) as OrdenCompra[],
+        presupuestos: db.presupuestos || [],
         loading: false,
       })
     }
@@ -193,6 +210,7 @@ function DashboardLayout() {
     marcas: <PageMarcas data={data} />,
     alertas: <PageAlertas data={data} />,
     sugeridos: <PageSugeridos data={data} />,
+    proveedores: <PageProveedores data={data} />,
     farmacias: <PageFarmacias data={data} refetch={fetchData} />,
   }
 
