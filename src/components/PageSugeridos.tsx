@@ -205,6 +205,9 @@ export function PageSugeridos({ data }: Props) {
                         Stock
                       </th>
                       <th className="px-3 py-2 text-right font-bold text-muted-foreground">
+                        En tránsito
+                      </th>
+                      <th className="px-3 py-2 text-right font-bold text-muted-foreground">
                         Sugerido
                       </th>
                       <th className="px-3 py-2 text-right font-bold text-muted-foreground">
@@ -259,6 +262,17 @@ export function PageSugeridos({ data }: Props) {
                               }`}
                             >
                               {fmt(s.stock)}
+                            </span>
+                          </td>
+                          <td className="px-3 py-2.5 text-right">
+                            <span
+                              className={`font-bold ${
+                                s.transito > 0
+                                  ? "text-blue-600"
+                                  : "text-muted-foreground"
+                              }`}
+                            >
+                              {s.transito > 0 ? fmt(s.transito) : "—"}
                             </span>
                           </td>
                           <td className="px-3 py-2.5 text-right">
@@ -329,6 +343,9 @@ export function PageSugeridos({ data }: Props) {
                         Stock
                       </th>
                       <th className="px-3 py-2 text-right font-bold text-muted-foreground">
+                        En tránsito
+                      </th>
+                      <th className="px-3 py-2 text-right font-bold text-muted-foreground">
                         Sugerido
                       </th>
                       <th className="px-3 py-2 text-right font-bold text-muted-foreground">
@@ -377,6 +394,11 @@ export function PageSugeridos({ data }: Props) {
                           <td className="px-3 py-2.5 text-right">
                             <span className="font-medium">
                               {fmt(s.stock)}
+                            </span>
+                          </td>
+                          <td className="px-3 py-2.5 text-right">
+                            <span className={`font-bold ${s.transito > 0 ? "text-blue-600" : "text-muted-foreground"}`}>
+                              {s.transito > 0 ? fmt(s.transito) : "—"}
                             </span>
                           </td>
                           <td className="px-3 py-2.5 text-right">
